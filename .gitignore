@@ -148,7 +148,7 @@ backend/uploads/
 !requirements.txt
 
 # PDF files (invoices)
-*.pdf
+# *.pdf  # Commented out to allow PDF files
 
 # Image files
 *.png
@@ -173,7 +173,7 @@ all_138_files_detailed_report.json
 *_test_report_*.txt
 
 # Test data
-Invoice for testing/
+# Invoice for testing/  # Commented out to allow test PDFs
 
 # Claude-specific
 .claude/

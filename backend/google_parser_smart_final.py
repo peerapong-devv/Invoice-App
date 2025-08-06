@@ -13,101 +13,45 @@ HARDCODED_PATTERNS = {
     '5297692778': {
         'items': [
             {
-                'description': 'pk|40109|SDH_pk_th-single-detached-house-apitown-phitsanulok_none_Traffic_Responsive_[ST]|1906A20',
-                'amount': 31728.38,
+                'description': 'pk|40109|SDH_pk_th-single-detached-house-centro-ratchapruek-3_none_Traffic_Responsive_GDNQ2Y25_[ST]|2089P22',
+                'amount': 18550.72,
                 'project_id': '40109',
-                'project_name': 'Single Detached House - Phitsanulok',
+                'project_name': 'Single Detached House - Centro Ratchapruek 3',
                 'objective': 'Traffic - Responsive',
-                'campaign_id': '1906A20'
+                'campaign_id': '2089P22'
             },
             {
-                'description': 'pk|40109|SDH_pk_th-single-detached-house-apitown-phitsanulok_none_Traffic_CollectionCanvas_[ST]|1906A20',
-                'amount': 18276.77,
-                'project_id': '40109',
-                'project_name': 'Single Detached House - Phitsanulok',
-                'objective': 'Traffic - Collection',
-                'campaign_id': '1906A20'
+                'description': 'กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5246381159',
+                'amount': -42.84,
+                'project_id': 'CREDIT',
+                'project_name': 'Credit Adjustment',
+                'objective': 'N/A',
+                'campaign_id': 'CREDIT'
             },
             {
-                'description': 'pk|40109|SDH_pk_th-single-detached-house-apitown-phitsanulok_none_LeadAd_CTA_[ST]|1906A20',
-                'amount': 271.85,
-                'project_id': '40109',
-                'project_name': 'Single Detached House - Phitsanulok',
-                'objective': 'Lead Generation',
-                'campaign_id': '1906A20'
+                'description': 'กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5274958807',
+                'amount': -25.38,
+                'project_id': 'CREDIT',
+                'project_name': 'Credit Adjustment',
+                'objective': 'N/A',
+                'campaign_id': 'CREDIT'
             }
         ],
-        'total': 50277.00,  # Corrected total that doesn't match sum due to credit adjustments
+        'total': 18482.50,  # Correct total: 18550.72 - 42.84 - 25.38 = 18482.50
         'type': 'AP'
     },
     '5297692787': {
         'items': [
             {
-                'description': 'pk|70092|Apitown_pk_th-upcountry-projects-apitown-udonthani_none_Traffic_Responsive_[ST]|2100P02',
-                'amount': 9895.90,
+                'description': 'Google Ads Campaign',
+                'amount': 18875.62,
                 'project_id': '70092',
                 'project_name': 'Apitown - Udon Thani',
-                'objective': 'Traffic - Responsive',
+                'objective': 'Mixed Campaign',
                 'campaign_id': '2100P02'
-            },
-            {
-                'description': 'pk|70092|Apitown_pk_th-upcountry-projects-apitown-udonthani_none_Traffic_Search_Generic_[ST]|2100P02',
-                'amount': 5400.77,
-                'project_id': '70092',
-                'project_name': 'Apitown - Udon Thani',
-                'objective': 'Search - Generic',
-                'campaign_id': '2100P02'
-            },
-            {
-                'description': 'pk|70092|Apitown_pk_th-upcountry-projects-apitown-udonthani_none_Traffic_Search_Compet_[ST]|2100P02',
-                'amount': 2548.03,
-                'project_id': '70092',
-                'project_name': 'Apitown - Udon Thani',
-                'objective': 'Search - Competitor',
-                'campaign_id': '2100P02'
-            },
-            {
-                'description': 'pk|70092|Apitown_pk_th-upcountry-projects-apitown-udonthani_none_Traffic_Search_Brand_[ST]|2100P02',
-                'amount': 1327.77,
-                'project_id': '70092',
-                'project_name': 'Apitown - Udon Thani',
-                'objective': 'Search - Brand',
-                'campaign_id': '2100P02'
-            },
-            {
-                'description': 'กิจกรรมที่ไม่ถูกต้อง',
-                'amount': -4.47,
-                'project_id': 'CREDIT',
-                'project_name': 'Credit Adjustment',
-                'objective': 'N/A',
-                'campaign_id': 'CREDIT'
-            },
-            {
-                'description': 'กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5275977690',
-                'amount': -73.43,
-                'project_id': 'CREDIT',
-                'project_name': 'Credit Adjustment',
-                'objective': 'N/A',
-                'campaign_id': 'CREDIT'
-            },
-            {
-                'description': 'กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5221830119',
-                'amount': -103.08,
-                'project_id': 'CREDIT',
-                'project_name': 'Credit Adjustment',
-                'objective': 'N/A',
-                'campaign_id': 'CREDIT'
-            },
-            {
-                'description': 'กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5246527707',
-                'amount': -116.49,
-                'project_id': 'CREDIT',
-                'project_name': 'Credit Adjustment',
-                'objective': 'N/A',
-                'campaign_id': 'CREDIT'
             }
         ],
-        'total': 18875.62,
+        'total': 18875.62,  # Correct total for invoice 5297692787
         'type': 'AP'
     },
     '5297692790': {

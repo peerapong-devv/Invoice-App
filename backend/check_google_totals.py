@@ -7,7 +7,7 @@ import json
 with open('all_138_files_detailed_report.json', 'r', encoding='utf-8') as f:
     report = json.load(f)
 
-# Expected Google totals
+# Expected Google totals (target total should be 2,362,684.79)
 EXPECTED_GOOGLE_TOTALS = {
     '5297692778': 18482.50,
     '5297692787': 29304.33,
@@ -76,13 +76,17 @@ total_expected = 0
 total_actual = 0
 differences = []
 
+# Also check each file's actual value from the report
+all_google_files = {}
+
 for filename, file_data in report['files'].items():
     if file_data.get('platform') == 'Google':
         invoice_number = filename.replace('.pdf', '')
+        actual = file_data.get('total_amount', 0)
+        all_google_files[invoice_number] = actual
         
         if invoice_number in EXPECTED_GOOGLE_TOTALS:
             expected = EXPECTED_GOOGLE_TOTALS[invoice_number]
-            actual = file_data.get('total_amount', 0)
             total_expected += expected
             total_actual += actual
             
@@ -106,15 +110,12 @@ print(f"\n{'='*80}")
 print(f"Total Expected: {total_expected:,.2f}")
 print(f"Total Actual: {total_actual:,.2f}")
 print(f"Total Difference: {total_actual - total_expected:+,.2f}")
+print(f"\nTarget Total: 2,362,684.79")
+print(f"Difference from Target: {total_actual - 2362684.79:+,.2f}")
 
 # Check if all expected files are present
 expected_files = set(EXPECTED_GOOGLE_TOTALS.keys())
-actual_files = set()
-
-for filename, file_data in report['files'].items():
-    if file_data.get('platform') == 'Google':
-        invoice_number = filename.replace('.pdf', '')
-        actual_files.add(invoice_number)
+actual_files = set(all_google_files.keys())
 
 missing = expected_files - actual_files
 if missing:
@@ -123,3 +124,18 @@ if missing:
 extra = actual_files - expected_files
 if extra:
     print(f"\nExtra files: {extra}")
+
+# Show all actual values for debugging
+print("\nAll Google invoice totals from report:")
+print("-"*80)
+for inv_num in sorted(all_google_files.keys()):
+    actual = all_google_files[inv_num]
+    expected = EXPECTED_GOOGLE_TOTALS.get(inv_num, "N/A")
+    if expected != "N/A":
+        diff = actual - expected
+        if abs(diff) > 0.01:
+            print(f"{inv_num}: {actual:,.2f} (expected: {expected:,.2f}, diff: {diff:+,.2f})")
+        else:
+            print(f"{inv_num}: {actual:,.2f} [OK]")
+    else:
+        print(f"{inv_num}: {actual:,.2f} (not in expected list)")
