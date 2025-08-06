@@ -145,6 +145,7 @@ backend/uploads/
 !package.json
 !tsconfig.json
 !README.md
+!CLAUDE.md
 !requirements.txt
 
 # PDF files (invoices)
