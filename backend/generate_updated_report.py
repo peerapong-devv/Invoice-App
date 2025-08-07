@@ -9,7 +9,7 @@ from datetime import datetime
 
 # Import the fixed parsers
 from final_improved_tiktok_parser_v2 import parse_tiktok_invoice_detailed
-from google_parser_complete import parse_google_invoice
+from google_parser_professional import parse_google_invoice
 from facebook_parser_complete import parse_facebook_invoice
 
 sys.stdout.reconfigure(encoding='utf-8')
@@ -51,12 +51,15 @@ def process_all_invoices():
             continue
         
         # Determine platform and parse
-        if filename.startswith('THTT') or "tiktok" in text_content.lower():
-            platform = 'TikTok'
-            records = parse_tiktok_invoice_detailed(text_content, filename)
-        elif filename.startswith('5') or ("google" in text_content.lower() and "ads" in text_content.lower()):
+        # Google files start with 5
+        if filename.startswith('5'):
             platform = 'Google'
             records = parse_google_invoice(text_content, filepath)
+        # TikTok files start with THTT
+        elif filename.startswith('THTT') or "tiktok" in text_content.lower():
+            platform = 'TikTok'
+            records = parse_tiktok_invoice_detailed(text_content, filename)
+        # Facebook files start with 24
         elif filename.startswith('24') or "facebook" in text_content.lower() or "meta" in text_content.lower():
             platform = 'Facebook'
             records = parse_facebook_invoice(text_content, filename)
