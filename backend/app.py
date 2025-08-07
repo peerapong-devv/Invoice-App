@@ -27,16 +27,16 @@ def create_final_unified_template():
         "period": None, "campaign_id": None, "total": None, "description": None,
     }
 
-def parse_invoice_text(text_content: str, filename: str):
+def parse_invoice_text(text_content: str, filename: str, file_path: str = None):
     # Detect platform and use appropriate parser
     if filename.startswith('THTT') or "tiktok" in text_content.lower() or "bytedance" in text_content.lower():
         from final_improved_tiktok_parser_v2 import parse_tiktok_invoice_detailed
         records = parse_tiktok_invoice_detailed(text_content, filename)
     elif filename.startswith('5') or ("google" in text_content.lower() and "ads" in text_content.lower()):
-        from google_parser_smart_final import parse_google_invoice
+        from google_parser_complete import parse_google_invoice
         records = parse_google_invoice(text_content, filename)
     elif filename.startswith('24') or "facebook" in text_content.lower() or "meta" in text_content.lower():
-        from facebook_parser_enhanced_ap import parse_facebook_invoice
+        from facebook_parser_complete import parse_facebook_invoice
         records = parse_facebook_invoice(text_content, filename)
     else:
         return [{"platform": "Unknown", "filename": filename, "total": 0}]
@@ -86,7 +86,7 @@ def upload_file():
                     text_content += page.get_text()
             
             # Parse the invoice
-            records = parse_invoice_text(text_content, filename)
+            records = parse_invoice_text(text_content, filename, file_path)
             
             return jsonify({'records': records, 'success': True})
             
