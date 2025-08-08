@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test File Upload</title>
+</head>
+<body>
+    <h1>Test File Upload</h1>
+    
+    <h2>Test 1: Basic Upload Test</h2>
+    <form id="testForm">
+        <input type="file" id="testFile" accept=".pdf" multiple />
+        <button type="button" onclick="testUpload()">Test Upload</button>
+    </form>
+    
+    <h2>Test 2: Full Process Test</h2>
+    <form id="processForm">
+        <input type="file" id="processFile" accept=".pdf" multiple />
+        <button type="button" onclick="processUpload()">Process Upload</button>
+    </form>
+    
+    <div id="result"></div>
+    
+    <script>
+        async function testUpload() {
+            const files = document.getElementById('testFile').files;
+            if (files.length === 0) {
+                alert('Please select a file');
+                return;
+            }
+            
+            const formData = new FormData();
+            for (let file of files) {
+                formData.append('files', file);
+            }
+            
+            try {
+                const response = await fetch('http://localhost:5000/api/test-upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                document.getElementById('result').innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            } catch (error) {
+                document.getElementById('result').innerHTML = '<pre>Error: ' + error.message + '</pre>';
+            }
+        }
+        
+        async function processUpload() {
+            const files = document.getElementById('processFile').files;
+            if (files.length === 0) {
+                alert('Please select a file');
+                return;
+            }
+            
+            const formData = new FormData();
+            for (let file of files) {
+                formData.append('files', file);
+            }
+            
+            try {
+                const response = await fetch('http://localhost:5000/api/process-invoices', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                document.getElementById('result').innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            } catch (error) {
+                document.getElementById('result').innerHTML = '<pre>Error: ' + error.message + '</pre>';
+            }
+        }
+    </script>
+</body>
+</html>

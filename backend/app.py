@@ -7,7 +7,11 @@ import easyocr
 from api_routes import api
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": ["http://localhost:3000", "http://127.0.0.1:3000"]}})
+# More permissive CORS for debugging
+CORS(app, 
+     resources={r"/api/*": {"origins": "*"}},
+     allow_headers=["Content-Type"],
+     methods=["GET", "POST", "OPTIONS"])
 
 # Register API blueprint
 app.register_blueprint(api, url_prefix='/api')
