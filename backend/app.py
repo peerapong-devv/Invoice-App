@@ -4,9 +4,13 @@ import os
 import re
 import fitz  # PyMuPDF
 import easyocr
+from api_routes import api
 
 app = Flask(__name__)
 CORS(app)
+
+# Register API blueprint
+app.register_blueprint(api, url_prefix='/api')
 
 UPLOAD_FOLDER = 'uploads'
 if not os.path.exists(UPLOAD_FOLDER):
