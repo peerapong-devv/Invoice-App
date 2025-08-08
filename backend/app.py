@@ -4,9 +4,17 @@ import os
 import re
 import fitz  # PyMuPDF
 import easyocr
+from api_routes import api
 
 app = Flask(__name__)
-CORS(app)
+# More permissive CORS for debugging
+CORS(app, 
+     resources={r"/api/*": {"origins": "*"}},
+     allow_headers=["Content-Type"],
+     methods=["GET", "POST", "OPTIONS"])
+
+# Register API blueprint
+app.register_blueprint(api, url_prefix='/api')
 
 UPLOAD_FOLDER = 'uploads'
 if not os.path.exists(UPLOAD_FOLDER):
@@ -100,4 +108,4 @@ def upload_file():
     return jsonify({'error': 'Invalid file format'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)

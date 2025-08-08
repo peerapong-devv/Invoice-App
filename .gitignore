@@ -136,10 +136,10 @@ uploads/
 backend/uploads/
 
 # Test output
-*.json
-*.csv
-*.txt
-*.md
+backend/*.json
+backend/*.csv
+!backend/requirements.txt
+!backend/IMPLEMENTATION_SUMMARY.md
 
 # Keep important files
 !package.json
@@ -147,6 +147,9 @@ backend/uploads/
 !README.md
 !CLAUDE.md
 !requirements.txt
+!next.config.js
+!tailwind.config.js
+!postcss.config.js
 
 # PDF files (invoices)
 # *.pdf  # Commented out to allow PDF files
@@ -174,7 +177,8 @@ all_138_files_detailed_report.json
 *_test_report_*.txt
 
 # Test data
-# Invoice for testing/  # Commented out to allow test PDFs
+Invoice for testing/
+Invoice 07/
 
 # Claude-specific
 .claude/

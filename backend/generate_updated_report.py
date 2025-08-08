@@ -17,7 +17,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 def process_all_invoices():
     """Process all invoice files with updated parsers"""
     
-    invoice_dir = os.path.join('..', 'Invoice for testing')
+    invoice_dir = os.path.join('..', 'Invoice 07')
     all_files = sorted([f for f in os.listdir(invoice_dir) if f.endswith('.pdf')])
     
     report = {
@@ -115,7 +115,7 @@ print("="*80)
 report = process_all_invoices()
 
 # Save report
-output_file = 'all_138_files_updated_report.json'
+output_file = 'all_147_files_updated_report.json'
 with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(report, f, ensure_ascii=False, indent=2)
 
