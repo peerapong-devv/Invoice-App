@@ -7,7 +7,7 @@ import easyocr
 from api_routes import api
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": ["http://localhost:3000", "http://127.0.0.1:3000"]}})
 
 # Register API blueprint
 app.register_blueprint(api, url_prefix='/api')
@@ -104,4 +104,4 @@ def upload_file():
     return jsonify({'error': 'Invalid file format'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)

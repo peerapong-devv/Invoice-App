@@ -11,6 +11,20 @@ import toast from 'react-hot-toast'
 export default function Home() {
   const [isProcessing, setIsProcessing] = useState(false)
   const [report, setReport] = useState<InvoiceReport | null>(null)
+  const [backendStatus, setBackendStatus] = useState<'checking' | 'online' | 'offline'>('checking')
+
+  // Check backend status on mount
+  React.useEffect(() => {
+    const checkBackend = async () => {
+      try {
+        await axios.get('/api/backend/health')
+        setBackendStatus('online')
+      } catch (error) {
+        setBackendStatus('offline')
+      }
+    }
+    checkBackend()
+  }, [])
 
   const handleFilesSelected = async (files: File[]) => {
     if (files.length === 0) return
@@ -23,6 +37,15 @@ export default function Home() {
     })
 
     try {
+      // First check if backend is running
+      try {
+        await axios.get('/api/backend/health')
+      } catch (healthError) {
+        toast.error('Backend server is not running. Please start the Flask server on port 5000.')
+        setIsProcessing(false)
+        return
+      }
+
       const response = await axios.post<ProcessingResult>(
         '/api/backend/process-invoices',
         formData,
@@ -106,11 +129,39 @@ export default function Home() {
       <main className="min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-8">
           <div className="mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">Invoice Reader App</h1>
-            <p className="text-lg text-gray-600">
-              Upload and analyze invoices from Facebook, Google, and TikTok
-            </p>
+            <div className="flex items-center justify-between">
+              <div>
+                <h1 className="text-4xl font-bold text-gray-900 mb-2">Invoice Reader App</h1>
+                <p className="text-lg text-gray-600">
+                  Upload and analyze invoices from Facebook, Google, and TikTok
+                </p>
+              </div>
+              <div className="text-sm">
+                Backend Status: 
+                <span className={`ml-2 font-semibold ${
+                  backendStatus === 'online' ? 'text-green-600' : 
+                  backendStatus === 'offline' ? 'text-red-600' : 
+                  'text-yellow-600'
+                }`}>
+                  {backendStatus === 'online' ? '● Online' : 
+                   backendStatus === 'offline' ? '● Offline' : 
+                   '● Checking...'}
+                </span>
+              </div>
+            </div>
           </div>
+
+          {backendStatus === 'offline' && (
+            <div className="mb-4 p-4 bg-red-50 border border-red-200 rounded-lg">
+              <p className="text-red-800">
+                ⚠️ Backend server is offline. Please start the Flask server:
+              </p>
+              <pre className="mt-2 text-sm bg-red-100 p-2 rounded">
+                cd backend{'\n'}
+                python app.py
+              </pre>
+            </div>
+          )}
 
           <div className="mb-8">
             <FileUpload 

@@ -17,6 +17,14 @@ from facebook_parser_complete import parse_facebook_invoice
 
 api = Blueprint('api', __name__)
 
+@api.route('/health', methods=['GET'])
+def health_check():
+    """Health check endpoint"""
+    return jsonify({
+        'status': 'healthy',
+        'message': 'Invoice Reader API is running'
+    })
+
 @api.route('/process-invoices', methods=['POST'])
 def process_invoices():
     """Process uploaded invoice PDF files"""
