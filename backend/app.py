@@ -3,7 +3,6 @@ from flask_cors import CORS
 import os
 import re
 import fitz  # PyMuPDF
-import easyocr
 from api_routes import api
 
 app = Flask(__name__)
@@ -20,12 +19,7 @@ UPLOAD_FOLDER = 'uploads'
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
-reader = None
-def get_easyocr_reader():
-    global reader
-    if reader is None:
-        reader = easyocr.Reader(['en', 'th'], gpu=False)
-    return reader
+# EasyOCR removed - not needed for current implementation
 
 def create_final_unified_template():
     return {
