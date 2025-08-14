@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: '/api/backend/:path*',
-        destination: 'http://localhost:5000/api/:path*',
+        destination: 'http://peepong.pythonanywhere.com/api/:path*',
       },
     ]
   },
