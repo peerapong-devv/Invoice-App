@@ -4,10 +4,22 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
+  // Enable CORS
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  // Handle OPTIONS request
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
+
   const { path } = req.query;
-  const targetPath = Array.isArray(path) ? path.join('/') : path;
+  const targetPath = Array.isArray(path) ? path.join('/') : path || '';
   
   const targetUrl = `https://peepong.pythonanywhere.com/api/${targetPath}`;
+  
+  console.log('Proxying request to:', targetUrl);
   
   try {
     const headers: HeadersInit = {
@@ -15,7 +27,7 @@ export default async function handler(
     };
 
     const options: RequestInit = {
-      method: req.method,
+      method: req.method || 'GET',
       headers,
     };
 
@@ -36,9 +48,13 @@ export default async function handler(
     const response = await fetch(targetUrl, options);
     const data = await response.json();
     
-    res.status(response.status).json(data);
-  } catch (error) {
+    return res.status(response.status).json(data);
+  } catch (error: any) {
     console.error('Proxy error:', error);
-    res.status(500).json({ error: 'Failed to connect to backend', details: error });
+    return res.status(500).json({ 
+      error: 'Failed to connect to backend', 
+      details: error?.message || 'Unknown error',
+      url: targetUrl 
+    });
   }
 }
