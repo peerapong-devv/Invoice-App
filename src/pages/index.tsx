@@ -17,7 +17,7 @@ export default function Home() {
   React.useEffect(() => {
     const checkBackend = async () => {
       try {
-        await axios.get('/api/backend/health')
+        await axios.get('https://peepong.pythonanywhere.com/api/health')
         setBackendStatus('online')
       } catch (error) {
         setBackendStatus('offline')
@@ -39,15 +39,15 @@ export default function Home() {
     try {
       // First check if backend is running
       try {
-        await axios.get('/api/backend/health')
+        await axios.get('https://peepong.pythonanywhere.com/api/health')
       } catch (healthError) {
-        toast.error('Backend server is not running. Please start the Flask server on port 5000.')
+        toast.error('Backend server is not running. Please check the connection.')
         setIsProcessing(false)
         return
       }
 
       const response = await axios.post<ProcessingResult>(
-        '/api/backend/process-invoices',
+        'https://peepong.pythonanywhere.com/api/process-invoices',
         formData,
         {
           headers: {
@@ -86,7 +86,7 @@ export default function Home() {
 
     try {
       const response = await axios.post(
-        '/api/backend/export-csv',
+        'https://peepong.pythonanywhere.com/api/export-csv',
         report,
         {
           responseType: 'blob',
