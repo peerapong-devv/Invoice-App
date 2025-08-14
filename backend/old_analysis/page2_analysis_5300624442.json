@@ -1,0 +1,1360 @@
+{
+  "filename": "5300624442.pdf",
+  "total_pages": 2,
+  "line_items": [
+    {
+      "amount": 77859.29,
+      "description": "77,859.29",
+      "extraction_method": "table_row"
+    },
+    {
+      "amount": 74995.33,
+      "description": "74,995.33",
+      "extraction_method": "table_row"
+    },
+    {
+      "amount": 62246.97,
+      "description": "62,246.97",
+      "extraction_method": "table_row"
+    },
+    {
+      "amount": 77859.29,
+      "description": "4190131 การแสดงผล Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_500,000 Views_100,000 1568324 การคลิก",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": 74995.33,
+      "description": "4190131 การแสดงผล Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_500,000 Views_100,000 1568324 การคลิก Parrot Oil in bath VDO 15 Sec - S​",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": 62246.97,
+      "description": "Views_120,000 1354296 การคลิก กิจกรรมที ไม่ถูกต้อง",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": -158.15,
+      "description": ". 2568, : Prakit Holdings Public กิจกรรมที ไม่ถูกต้อง เดือนที ใช้บริการ องบประมาณบัญชี Company Limited - May 15, 2025, : Parrot Oil in bath VDO 15 Sec - S​",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": -209.35,
+      "description": ". 2568, : Prakit Holdings Public กิจกรรมที ไม่ถูกต้อง เดือนที ใช้บริการ องบประมาณบัญชี Company Limited - May 15, 2025, : Parrot Oil in bath VDO 6 Sec - B​",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": 214728.05,
+      "description": "_​​​​​​​​... อแคมเปญ ยอดรวมในสกุลเงิน GST (0%)",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": 214728.05,
+      "description": "ยอดรวมในสกุลเงิน GST (0%) ยอดรวมในสกุลเงิน",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": 24442.0,
+      "description": "หมายเลขใบแจ้งหนี้: 53006",
+      "extraction_method": "horizontal_pattern"
+    },
+    {
+      "amount": -2949.0,
+      "description": "รหัสบัญชี: 852-385",
+      "extraction_method": "horizontal_pattern"
+    },
+    {
+      "amount": 2025.0,
+      "description": "งบประมาณบัญชี: Prakit Holdings Public Company Limited - May 15,",
+      "extraction_method": "horizontal_pattern"
+    },
+    {
+      "amount": 2568.0,
+      "description": "1 มิ.ย. 2568 - 30 มิ.ย.",
+      "extraction_method": "horizontal_pattern"
+    },
+    {
+      "amount": 52777.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง...\nกิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม:",
+      "extraction_method": "fragmented_pattern"
+    },
+    {
+      "amount": 52777.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม:",
+      "extraction_method": "fragmented_pattern"
+    },
+    {
+      "amount": 53006.0,
+      "description": "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 24442.0,
+      "description": "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 214728.05,
+      "description": "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 852.0,
+      "description": "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": -385.0,
+      "description": "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": -2949.0,
+      "description": "มีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 2568.0,
+      "description": "งบประมาณบัญชี: Prakit Holdings Public Company Limited - May 15, 2025",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 41901.0,
+      "description": "Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_500,000 Views_100,000",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 77859.29,
+      "description": "Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_500,000 Views_100,000",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 500.0,
+      "description": "Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_ ,000 Views_100,000",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 100.0,
+      "description": "Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_500,000 Views_ ,000",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 15683.0,
+      "description": "Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_500,000 Views_100,000",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 74995.33,
+      "description": "Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_500,000 Views_100,000",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 120.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5277703822, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdi",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 13542.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5277703822, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 62246.97,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5277703822, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": -158.15,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5277703822, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": -209.35,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5277703822, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 52777.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม:  03822, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 3822.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 52777 , เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 2568.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5277703822, เดือนที่ใช้บริการ: พ.ค.  , ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 2025.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5277703822, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    }
+  ],
+  "amounts_found": [
+    {
+      "value": 53006.0,
+      "text": "53006",
+      "position": [
+        31,
+        36
+      ]
+    },
+    {
+      "value": 24442.0,
+      "text": "24442",
+      "position": [
+        36,
+        41
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        124,
+        125
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        130,
+        131
+      ]
+    },
+    {
+      "value": 214728.05,
+      "text": "214,728.05",
+      "position": [
+        133,
+        143
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0.00",
+      "position": [
+        145,
+        149
+      ]
+    },
+    {
+      "value": 214728.05,
+      "text": "214,728.05",
+      "position": [
+        151,
+        161
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        188,
+        189
+      ]
+    },
+    {
+      "value": 852.0,
+      "text": "852",
+      "position": [
+        238,
+        241
+      ]
+    },
+    {
+      "value": -385.0,
+      "text": "-385",
+      "position": [
+        241,
+        245
+      ]
+    },
+    {
+      "value": -2949.0,
+      "text": "-2949",
+      "position": [
+        245,
+        250
+      ]
+    },
+    {
+      "value": 15.0,
+      "text": "15",
+      "position": [
+        311,
+        313
+      ]
+    },
+    {
+      "value": 2025.0,
+      "text": "2025",
+      "position": [
+        315,
+        319
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        320,
+        321
+      ]
+    },
+    {
+      "value": 2568.0,
+      "text": "2568",
+      "position": [
+        328,
+        332
+      ]
+    },
+    {
+      "value": 30.0,
+      "text": "30",
+      "position": [
+        335,
+        337
+      ]
+    },
+    {
+      "value": 2568.0,
+      "text": "2568",
+      "position": [
+        344,
+        348
+      ]
+    },
+    {
+      "value": 6.0,
+      "text": "6",
+      "position": [
+        408,
+        409
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        437,
+        438
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        440,
+        441
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        455,
+        456
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        458,
+        459
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        473,
+        474
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        476,
+        477
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        482,
+        483
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        488,
+        489
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        491,
+        492
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        494,
+        495
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        500,
+        501
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        503,
+        504
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        506,
+        507
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        524,
+        525
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        527,
+        528
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        530,
+        531
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        536,
+        537
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        539,
+        540
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        542,
+        543
+      ]
+    },
+    {
+      "value": 41901.0,
+      "text": "41901",
+      "position": [
+        549,
+        554
+      ]
+    },
+    {
+      "value": 31.0,
+      "text": "31",
+      "position": [
+        554,
+        556
+      ]
+    },
+    {
+      "value": 77859.29,
+      "text": "77,859.29",
+      "position": [
+        567,
+        576
+      ]
+    },
+    {
+      "value": 15.0,
+      "text": "15",
+      "position": [
+        600,
+        602
+      ]
+    },
+    {
+      "value": 7.0,
+      "text": "7",
+      "position": [
+        618,
+        619
+      ]
+    },
+    {
+      "value": -30.0,
+      "text": "-30",
+      "position": [
+        622,
+        625
+      ]
+    },
+    {
+      "value": 25.0,
+      "text": "25",
+      "position": [
+        629,
+        631
+      ]
+    },
+    {
+      "value": 500000.0,
+      "text": "500,000",
+      "position": [
+        632,
+        639
+      ]
+    },
+    {
+      "value": 100000.0,
+      "text": "100,000",
+      "position": [
+        646,
+        653
+      ]
+    },
+    {
+      "value": 15683.0,
+      "text": "15683",
+      "position": [
+        658,
+        663
+      ]
+    },
+    {
+      "value": 24.0,
+      "text": "24",
+      "position": [
+        663,
+        665
+      ]
+    },
+    {
+      "value": 74995.33,
+      "text": "74,995.33",
+      "position": [
+        674,
+        683
+      ]
+    },
+    {
+      "value": 15.0,
+      "text": "15",
+      "position": [
+        707,
+        709
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        743,
+        744
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        746,
+        747
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        761,
+        762
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        764,
+        765
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        779,
+        780
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        782,
+        783
+      ]
+    },
+    {
+      "value": 6.0,
+      "text": "6",
+      "position": [
+        788,
+        789
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        791,
+        792
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        794,
+        795
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        800,
+        801
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        803,
+        804
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        806,
+        807
+      ]
+    },
+    {
+      "value": 120000.0,
+      "text": "120,000",
+      "position": [
+        816,
+        823
+      ]
+    },
+    {
+      "value": 13542.0,
+      "text": "13542",
+      "position": [
+        828,
+        833
+      ]
+    },
+    {
+      "value": 96.0,
+      "text": "96",
+      "position": [
+        833,
+        835
+      ]
+    },
+    {
+      "value": 62246.97,
+      "text": "62,246.97",
+      "position": [
+        844,
+        853
+      ]
+    },
+    {
+      "value": -6.04,
+      "text": "-6.04",
+      "position": [
+        854,
+        859
+      ]
+    },
+    {
+      "value": -158.15,
+      "text": "-158.15",
+      "position": [
+        860,
+        867
+      ]
+    },
+    {
+      "value": -209.35,
+      "text": "-209.35",
+      "position": [
+        868,
+        875
+      ]
+    },
+    {
+      "value": 52777.0,
+      "text": "52777",
+      "position": [
+        946,
+        951
+      ]
+    },
+    {
+      "value": 3822.0,
+      "text": "03822",
+      "position": [
+        951,
+        956
+      ]
+    },
+    {
+      "value": 2568.0,
+      "text": "2568",
+      "position": [
+        982,
+        986
+      ]
+    },
+    {
+      "value": 15.0,
+      "text": "15",
+      "position": [
+        1052,
+        1054
+      ]
+    },
+    {
+      "value": 2025.0,
+      "text": "2025",
+      "position": [
+        1056,
+        1060
+      ]
+    },
+    {
+      "value": 15.0,
+      "text": "15",
+      "position": [
+        1097,
+        1099
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        1133,
+        1134
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        1136,
+        1137
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1151,
+        1152
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        1154,
+        1155
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        1169,
+        1170
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        1172,
+        1173
+      ]
+    },
+    {
+      "value": 6.0,
+      "text": "6",
+      "position": [
+        1178,
+        1179
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        1181,
+        1182
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        1184,
+        1185
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        1190,
+        1191
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        1193,
+        1194
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        1196,
+        1197
+      ]
+    },
+    {
+      "value": 52777.0,
+      "text": "52777",
+      "position": [
+        1248,
+        1253
+      ]
+    },
+    {
+      "value": 3822.0,
+      "text": "03822",
+      "position": [
+        1253,
+        1258
+      ]
+    },
+    {
+      "value": 2568.0,
+      "text": "2568",
+      "position": [
+        1284,
+        1288
+      ]
+    },
+    {
+      "value": 15.0,
+      "text": "15",
+      "position": [
+        1354,
+        1356
+      ]
+    },
+    {
+      "value": 2025.0,
+      "text": "2025",
+      "position": [
+        1358,
+        1362
+      ]
+    },
+    {
+      "value": 6.0,
+      "text": "6",
+      "position": [
+        1399,
+        1400
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        1428,
+        1429
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        1431,
+        1432
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1446,
+        1447
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        1449,
+        1450
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        1464,
+        1465
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        1467,
+        1468
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1473,
+        1474
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1479,
+        1480
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1482,
+        1483
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1485,
+        1486
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1491,
+        1492
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1494,
+        1495
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1497,
+        1498
+      ]
+    }
+  ],
+  "descriptions_found": [
+    "ใบกำกับภาษี",
+    "หมายเลขใบแจ้งหนี้: 5300624442",
+    "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+    "หน้า 2 จาก 2",
+    "฿214,728.05",
+    "฿214,728.05",
+    "ยอดรวมในสกุลเงิน THB",
+    "ยอดรวมในสกุลเงิน THB",
+    "บัญชี: Parrot",
+    "รหัสบัญชี: 852-385-2949",
+    "งบประมาณบัญชี: Prakit Holdings Public Company Limited - May 15, 2025",
+    "1 มิ.ย. 2568 - 30 มิ.ย. 2568",
+    "Parrot Oil in bath VDO 6 Sec - B​",
+    "Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_500,000 Views_100,000",
+    "Parrot Oil in bath VDO 15 Sec - S​",
+    "Views_120,000",
+    "กิจกรรมที่ไม่ถูกต้อง...",
+    "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5277703822, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+    "Company Limited - May 15, 2025, ชื่อแคมเปญ: Parrot Oil in bath VDO 15 Sec - S​",
+    "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5277703822, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+    "Company Limited - May 15, 2025, ชื่อแคมเปญ: Parrot Oil in bath VDO 6 Sec - B​",
+    "_​​​​​​​​...",
+    "หมายเลขใบสั่งซื้อหรือใบแจ้งหนี้ที่เกี่ยวข้องกับกิจกรรมที่ไม่ถูกต้องอาจมีการเปลี่ยนแปลงหากมีการเรียกเก็บเงินอีกคร"
+  ],
+  "text_blocks": [
+    {
+      "block_num": 1,
+      "bbox": [
+        131.25,
+        30.75,
+        547.2514038085938,
+        51.0
+      ],
+      "text_length": 40,
+      "text_preview": ": 5300624442"
+    },
+    {
+      "block_num": 2,
+      "bbox": [
+        48.0,
+        815.3250122070312,
+        547.2601318359375,
+        827.4749755859375
+      ],
+      "text_length": 88,
+      "text_preview": "  collections@google.com 2  2"
+    },
+    {
+      "block_num": 3,
+      "bbox": [
+        500.71875,
+        357.031494140625,
+        547.2531127929688,
+        366.9750061035156
+      ],
+      "text_length": 11,
+      "text_preview": "214,728.05"
+    },
+    {
+      "block_num": 4,
+      "bbox": [
+        525.94921875,
+        370.531494140625,
+        547.2550048828125,
+        380.4750061035156
+      ],
+      "text_length": 5,
+      "text_preview": "0.00"
+    },
+    {
+      "block_num": 5,
+      "bbox": [
+        471.03515625,
+        393.52880859375,
+        547.2259521484375,
+        409.79998779296875
+      ],
+      "text_length": 11,
+      "text_preview": "214,728.05"
+    },
+    {
+      "block_num": 6,
+      "bbox": [
+        297.6328125,
+        357.031494140625,
+        374.92626953125,
+        366.9750061035156
+      ],
+      "text_length": 20,
+      "text_preview": " THB"
+    },
+    {
+      "block_num": 7,
+      "bbox": [
+        297.6328125,
+        370.531494140625,
+        334.1523132324219,
+        379.748291015625
+      ],
+      "text_length": 8,
+      "text_preview": "GST (0%)"
+    },
+    {
+      "block_num": 8,
+      "bbox": [
+        297.6328125,
+        396.781494140625,
+        374.92626953125,
+        406.7250061035156
+      ],
+      "text_length": 20,
+      "text_preview": " THB"
+    },
+    {
+      "block_num": 9,
+      "bbox": [
+        48.75,
+        78.781494140625,
+        92.3370590209961,
+        89.4749984741211
+      ],
+      "text_length": 13,
+      "text_preview": ": Parrot"
+    },
+    {
+      "block_num": 10,
+      "bbox": [
+        48.75,
+        92.281494140625,
+        132.156494140625,
+        102.9749984741211
+      ],
+      "text_length": 23,
+      "text_preview": ": 852-385-2949"
+    },
+    {
+      "block_num": 11,
+      "bbox": [
+        48.75,
+        105.781494140625,
+        318.65155029296875,
+        116.4749984741211
+      ],
+      "text_length": 68,
+      "text_preview": ": Prakit Holdings Public Company Limited - May 15, 2025"
+    },
+    {
+      "block_num": 12,
+      "bbox": [
+        48.75,
+        119.281494140625,
+        141.38827514648438,
+        129.22500610351562
+      ],
+      "text_length": 28,
+      "text_preview": "1 .. 2568 - 30 .. 2568"
+    },
+    {
+      "block_num": 13,
+      "bbox": [
+        48.0,
+        147.15750122070312,
+        546.9903564453125,
+        162.3142547607422
+      ],
+      "text_length": 28,
+      "text_preview": ""
+    },
+    {
+      "block_num": 14,
+      "bbox": [
+        536.51953125,
+        157.531494140625,
+        547.26416015625,
+        166.748291015625
+      ],
+      "text_length": 3,
+      "text_preview": "()"
+    },
+    {
+      "block_num": 15,
+      "bbox": [
+        48.0,
+        178.531494140625,
+        350.8760681152344,
+        187.748291015625
+      ],
+      "text_length": 117,
+      "text_preview": "Parrot Oil in bath VDO 6 Sec - Bumper_15May-30Jun'25_3,333,333Imps"
+    },
+    {
+      "block_num": 16,
+      "bbox": [
+        48.0,
+        183.781494140625,
+        547.2598876953125,
+        198.248291015625
+      ],
+      "text_length": 28,
+      "text_preview": "THB419013177,859.29"
+    },
+    {
+      "block_num": 17,
+      "bbox": [
+        48.0,
+        210.031494140625,
+        547.2598876953125,
+        229.748291015625
+      ],
+      "text_length": 102,
+      "text_preview": "Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun'25_500,000 Views_100,000THB156832474,995."
+    },
+    {
+      "block_num": 18,
+      "bbox": [
+        48.0,
+        241.531494140625,
+        355.31439208984375,
+        250.748291015625
+      ],
+      "text_length": 108,
+      "text_preview": "Parrot Oil in bath VDO 15 Sec - Skipable_15May-30Jun'25_600,000 Views"
+    },
+    {
+      "block_num": 19,
+      "bbox": [
+        48.0,
+        246.781494140625,
+        547.2598876953125,
+        261.248291015625
+      ],
+      "text_length": 26,
+      "text_preview": "THB135429662,246.97"
+    },
+    {
+      "block_num": 20,
+      "bbox": [
+        528.45703125,
+        273.031494140625,
+        547.2600708007812,
+        282.248291015625
+      ],
+      "text_length": 5,
+      "text_preview": "-6.04"
+    },
+    {
+      "block_num": 21,
+      "bbox": [
+        519.28125,
+        299.281494140625,
+        547.2583618164062,
+        308.498291015625
+      ],
+      "text_length": 7,
+      "text_preview": "-158.15"
+    },
+    {
+      "block_num": 22,
+      "bbox": [
+        519.28125,
+        329.281494140625,
+        547.2583618164062,
+        338.498291015625
+      ],
+      "text_length": 7,
+      "text_preview": "-209.35"
+    },
+    {
+      "block_num": 23,
+      "bbox": [
+        48.0,
+        271.57501220703125,
+        115.50020599365234,
+        283.7250061035156
+      ],
+      "text_length": 23,
+      "text_preview": "..."
+    },
+    {
+      "block_num": 24,
+      "bbox": [
+        48.0,
+        291.82501220703125,
+        492.51580810546875,
+        313.7250061035156
+      ],
+      "text_length": 270,
+      "text_preview": " - : 5277703822, : .. 2568, "
+    },
+    {
+      "block_num": 25,
+      "bbox": [
+        48.0,
+        322.57501220703125,
+        492.51580810546875,
+        343.7250061035156
+      ],
+      "text_length": 286,
+      "text_preview": " - : 5277703822, : .. 2568, "
+    },
+    {
+      "block_num": 26,
+      "bbox": [
+        48.0,
+        789.8250122070312,
+        391.19024658203125,
+        801.9749755859375
+      ],
+      "text_length": 115,
+      "text_preview": ""
+    }
+  ],
+  "debug_info": {}
+}

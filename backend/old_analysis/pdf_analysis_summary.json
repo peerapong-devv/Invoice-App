@@ -1,0 +1,18 @@
+{
+  "total_files_analyzed": 3,
+  "common_patterns": [
+    "Average table confidence: 0.33",
+    "Most common table structure: 3 columns (3 occurrences)"
+  ],
+  "extraction_challenges": [
+    "5297692778.pdf: 26 amounts but only 20 candidates",
+    "5297692787.pdf: 55 amounts but only 33 candidates",
+    "5300624442.pdf: 37 amounts but only 31 candidates"
+  ],
+  "recommendations": [
+    "Focus on improving description-amount association",
+    "Implement table-aware extraction for structured data",
+    "Filter out 38 small amounts that may be noise",
+    "Verify 12 large amounts that may be totals"
+  ]
+}

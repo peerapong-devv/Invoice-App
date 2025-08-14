@@ -1,0 +1,2385 @@
+{
+  "summary": {
+    "total_files": 57,
+    "files_with_fragmentation": 0,
+    "files_with_table": 57,
+    "files_with_multiple_items": 39,
+    "common_patterns": {
+      "การคลิก": 34,
+      "กิจกรรมที่ไม่ถูกต้อง": 46,
+      "SDH": 18,
+      "|separator|": 51,
+      "Clicks/Impressions": 34,
+      "Campaign": 3,
+      "DMCRM": 1,
+      "DMHEALTH": 1
+    },
+    "amount_distributions": []
+  },
+  "analyses": [
+    {
+      "filename": "5297692778.pdf",
+      "invoice_number": "5297692778",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -2.1,
+          "description": "Credit/Adjustment",
+          "context": "50277 การคลิก 18,550.72"
+        },
+        {
+          "amount": -66.12,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 18,550.72 -2.10"
+        }
+      ],
+      "amounts_found": [
+        18482.5,
+        18482.5,
+        18550.72,
+        -2.1,
+        -66.12
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297692787.pdf",
+      "invoice_number": "5297692787",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -4.47,
+          "description": "Credit/Adjustment",
+          "context": "70 การคลิก 1,327.77"
+        },
+        {
+          "amount": -73.43,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 1,327.77 -4.47"
+        },
+        {
+          "amount": -103.08,
+          "description": "Credit/Adjustment",
+          "context": "1,327.77 -4.47 -73.43"
+        },
+        {
+          "amount": -116.49,
+          "description": "Credit/Adjustment",
+          "context": "-4.47 -73.43 -103.08"
+        }
+      ],
+      "amounts_found": [
+        18875.0,
+        18875.0,
+        9895.9,
+        5400.77,
+        2548.03,
+        1327.77,
+        -4.47,
+        -73.43,
+        -103.08,
+        -116.49
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297692790.pdf",
+      "invoice_number": "5297692790",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -175.23,
+          "description": "Credit/Adjustment",
+          "context": "หน่วย จำนวนเงิน (฿)"
+        },
+        {
+          "amount": -1495.85,
+          "description": "Credit/Adjustment",
+          "context": "จำนวนเงิน (฿) -175.23"
+        },
+        {
+          "amount": -1570.29,
+          "description": "Credit/Adjustment",
+          "context": "(฿) -175.23 -1,495.85"
+        },
+        {
+          "amount": -3043.05,
+          "description": "Credit/Adjustment",
+          "context": "-175.23 -1,495.85 -1,570.29"
+        }
+      ],
+      "amounts_found": [
+        6284.42,
+        6284.42,
+        -175.23,
+        -1495.85,
+        -1570.29,
+        -3043.05
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297692799.pdf",
+      "invoice_number": "5297692799",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -4.38,
+          "description": "Credit/Adjustment",
+          "context": "85 การคลิก 25.40"
+        },
+        {
+          "amount": -6.48,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 25.40 -4.38"
+        },
+        {
+          "amount": -48.49,
+          "description": "Credit/Adjustment",
+          "context": "25.40 -4.38 -6.48"
+        }
+      ],
+      "amounts_found": [
+        8578.86,
+        8578.86,
+        3749.22,
+        2447.93,
+        2415.66,
+        25.4,
+        -4.38,
+        -6.48,
+        -48.49
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297693015.pdf",
+      "invoice_number": "5297693015",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.77,
+          "description": "Credit/Adjustment",
+          "context": "28759 การคลิก 11,491.52"
+        },
+        {
+          "amount": -13.42,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 11,491.52 -0.77"
+        }
+      ],
+      "amounts_found": [
+        11477.33,
+        11477.33,
+        11491.52,
+        -0.77,
+        -13.42
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297732883.pdf",
+      "invoice_number": "5297732883",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -6.59,
+          "description": "Credit/Adjustment",
+          "context": "61 การคลิก 1,125.20"
+        },
+        {
+          "amount": -14.24,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 1,125.20 -6.59"
+        },
+        {
+          "amount": -50.78,
+          "description": "Credit/Adjustment",
+          "context": "1,125.20 -6.59 -14.24"
+        },
+        {
+          "amount": -135.62,
+          "description": "Credit/Adjustment",
+          "context": "-6.59 -14.24 -50.78"
+        }
+      ],
+      "amounts_found": [
+        7755.39,
+        7755.39,
+        4150.6,
+        1349.32,
+        1337.5,
+        1125.2,
+        -6.59,
+        -14.24,
+        -50.78,
+        -135.62
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297735036.pdf",
+      "invoice_number": "5297735036",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": 79988.3,
+          "description": "(Campaign คนไทยไส้ต้องดี) Full Version 7.5 sec\"",
+          "context": "(Campaign คนไทยไส้ต้องดี) Full Version 7.5 sec\" 3236144 การคลิก"
+        },
+        {
+          "amount": -2.17,
+          "description": "(Campaign คนไทยไส้ต้องดี) Full Version 7.5 sec\"",
+          "context": "3236144 การคลิก 79,988.30"
+        },
+        {
+          "amount": -2.71,
+          "description": "(Campaign คนไทยไส้ต้องดี) Full Version 7.5 sec\"",
+          "context": "การคลิก 79,988.30 -2.17"
+        },
+        {
+          "amount": -4.35,
+          "description": "(Campaign คนไทยไส้ต้องดี) Full Version 7.5 sec\"",
+          "context": "79,988.30 -2.17 -2.71"
+        },
+        {
+          "amount": -624.37,
+          "description": "(Campaign คนไทยไส้ต้องดี) Full Version 7.5 sec\"",
+          "context": "-2.17 -2.71 -4.35"
+        },
+        {
+          "amount": -756.01,
+          "description": "(Campaign คนไทยไส้ต้องดี) Full Version 7.5 sec\"",
+          "context": "-2.71 -4.35 -624.37"
+        }
+      ],
+      "amounts_found": [
+        78598.69,
+        78598.69,
+        79988.3,
+        -2.17,
+        -2.71,
+        -4.35,
+        -624.37,
+        -756.01
+      ],
+      "patterns_found": [
+        "Campaign",
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297736216.pdf",
+      "invoice_number": "5297736216",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.26,
+          "description": "Credit/Adjustment",
+          "context": "4038927 การคลิก 199,975.40"
+        },
+        {
+          "amount": -0.48,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 199,975.40 -0.26"
+        },
+        {
+          "amount": -0.69,
+          "description": "Credit/Adjustment",
+          "context": "199,975.40 -0.26 -0.48"
+        },
+        {
+          "amount": -1.11,
+          "description": "Credit/Adjustment",
+          "context": "-0.26 -0.48 -0.69"
+        },
+        {
+          "amount": -183.55,
+          "description": "Credit/Adjustment",
+          "context": "-0.48 -0.69 -1.11"
+        }
+      ],
+      "amounts_found": [
+        199789.31,
+        199789.31,
+        199975.4,
+        -0.26,
+        -0.48,
+        -0.69,
+        -1.11,
+        -183.55
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297742275.pdf",
+      "invoice_number": "5297742275",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -51.14,
+          "description": "Credit/Adjustment",
+          "context": "34008 การคลิก 14,214.83"
+        },
+        {
+          "amount": -241.52,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 14,214.83 -51.14"
+        }
+      ],
+      "amounts_found": [
+        13922.17,
+        13922.17,
+        14214.83,
+        -51.14,
+        -241.52
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297785878.pdf",
+      "invoice_number": "5297785878",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -1.66,
+          "description": "Credit/Adjustment",
+          "context": "หน่วย จำนวน เงิน (฿)"
+        }
+      ],
+      "amounts_found": [
+        1.66,
+        1.66,
+        -1.66
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297786049.pdf",
+      "invoice_number": "5297786049",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -1.41,
+          "description": "Credit/Adjustment",
+          "context": "2181 การคลิก 4,906.59"
+        }
+      ],
+      "amounts_found": [
+        4905.18,
+        4905.18,
+        4906.59,
+        -1.41
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297830454.pdf",
+      "invoice_number": "5297830454",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -3.2,
+          "description": "Credit/Adjustment",
+          "context": "82 การคลิก 1,356.78"
+        },
+        {
+          "amount": -337.47,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 1,356.78 -3.20"
+        },
+        {
+          "amount": -523.87,
+          "description": "Credit/Adjustment",
+          "context": "1,356.78 -3.20 -337.47"
+        },
+        {
+          "amount": -840.72,
+          "description": "Credit/Adjustment",
+          "context": "-3.20 -337.47 -523.87"
+        }
+      ],
+      "amounts_found": [
+        13143.56,
+        13143.56,
+        6642.19,
+        3426.12,
+        3423.73,
+        1356.78,
+        -3.2,
+        -337.47,
+        -523.87,
+        -840.72
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297833463.pdf",
+      "invoice_number": "5297833463",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -2.63,
+          "description": "Credit/Adjustment",
+          "context": "40558 การคลิก 14,602.17"
+        },
+        {
+          "amount": -50.66,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 14,602.17 -2.63"
+        },
+        {
+          "amount": -67.41,
+          "description": "Credit/Adjustment",
+          "context": "14,602.17 -2.63 -50.66"
+        }
+      ],
+      "amounts_found": [
+        14481.47,
+        14481.47,
+        14602.17,
+        -2.63,
+        -50.66,
+        -67.41
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5297969160.pdf",
+      "invoice_number": "5297969160",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        30144.76,
+        30144.76,
+        16098.49,
+        14046.27
+      ],
+      "patterns_found": [
+        "SDH",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298021501.pdf",
+      "invoice_number": "5298021501",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.57,
+          "description": "Credit/Adjustment",
+          "context": "2428029 การคลิก 59,991.92"
+        },
+        {
+          "amount": -5.58,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 59,991.92 -0.57"
+        },
+        {
+          "amount": -366.02,
+          "description": "Credit/Adjustment",
+          "context": "59,991.92 -0.57 -5.58"
+        }
+      ],
+      "amounts_found": [
+        59619.75,
+        59619.75,
+        59991.92,
+        -0.57,
+        -5.58,
+        -366.02
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298120337.pdf",
+      "invoice_number": "5298120337",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.8,
+          "description": "Credit/Adjustment",
+          "context": "25521 การคลิก 9,280.00"
+        },
+        {
+          "amount": -52.34,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 9,280.00 -0.80"
+        },
+        {
+          "amount": -108.65,
+          "description": "Credit/Adjustment",
+          "context": "9,280.00 -0.80 -52.34"
+        }
+      ],
+      "amounts_found": [
+        9118.21,
+        9118.21,
+        9280.0,
+        -0.8,
+        -52.34,
+        -108.65
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298130144.pdf",
+      "invoice_number": "5298130144",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        7933.74,
+        7933.74,
+        4108.35,
+        1163.83,
+        1124.32,
+        855.7,
+        681.54
+      ],
+      "patterns_found": [
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298134610.pdf",
+      "invoice_number": "5298134610",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -135.41,
+          "description": "Credit/Adjustment",
+          "context": "19982 การคลิก 9,052.39"
+        },
+        {
+          "amount": -379.29,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 9,052.39 -135.41"
+        },
+        {
+          "amount": -1472.34,
+          "description": "Credit/Adjustment",
+          "context": "9,052.39 -135.41 -379.29"
+        }
+      ],
+      "amounts_found": [
+        7065.35,
+        7065.35,
+        9052.39,
+        -135.41,
+        -379.29,
+        -1472.34
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298142069.pdf",
+      "invoice_number": "5298142069",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -69.7,
+          "description": "Credit/Adjustment",
+          "context": "2136623 การแสดงผล 39,995.42"
+        }
+      ],
+      "amounts_found": [
+        139905.76,
+        139905.76,
+        59984.16,
+        39995.88,
+        39995.42,
+        -69.7
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298156820.pdf",
+      "invoice_number": "5298156820",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": 479843.67,
+          "description": "DMCRM-IN-041-0625",
+          "context": "DMCRM-IN-041-0625 11531531 การคลิก"
+        },
+        {
+          "amount": 319902.96,
+          "description": "DMCRM-IN-088-0625",
+          "context": "DMCRM-IN-088-0625 7457018 การคลิก"
+        },
+        {
+          "amount": 499.92,
+          "description": "DMHEALTH'25_View_VDO30_500 THB_20-27Jun'25 | D-DMHealth-TV-00275-0625",
+          "context": "DMHEALTH'25_View_VDO30_500 THB_20-27Jun'25 | D-DMHealth-TV-00275-0625 10023 การคลิก"
+        },
+        {
+          "amount": 499.88,
+          "description": "DMHEALTH'25_View_VDO31_500 THB_20-27Jun'25 | D-DMHealth-TV-00275-0625",
+          "context": "DMHEALTH'25_View_VDO31_500 THB_20-27Jun'25 | D-DMHealth-TV-00275-0625 9902 การคลิก"
+        },
+        {
+          "amount": 499.69,
+          "description": "DMHEALTH'25_View_VDO28_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525",
+          "context": "DMHEALTH'25_View_VDO28_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525 10462 การคลิก"
+        },
+        {
+          "amount": 499.66,
+          "description": "DMHEALTH'25_View_VDO29_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525",
+          "context": "DMHEALTH'25_View_VDO29_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525 10767 การคลิก"
+        },
+        {
+          "amount": -0.17,
+          "description": "DMHEALTH'25_View_VDO29_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525",
+          "context": "10767 การคลิก 499.66"
+        },
+        {
+          "amount": -2.61,
+          "description": "DMHEALTH'25_View_VDO29_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525",
+          "context": "การคลิก 499.66 -0.17"
+        },
+        {
+          "amount": -2.75,
+          "description": "DMHEALTH'25_View_VDO29_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525",
+          "context": "499.66 -0.17 -2.61"
+        },
+        {
+          "amount": -3.68,
+          "description": "DMHEALTH'25_View_VDO29_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525",
+          "context": "-0.17 -2.61 -2.75"
+        },
+        {
+          "amount": -3.82,
+          "description": "DMHEALTH'25_View_VDO29_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525",
+          "context": "-2.61 -2.75 -3.68"
+        },
+        {
+          "amount": -4.33,
+          "description": "DMHEALTH'25_View_VDO29_500 THB_5-11Jun'25 | D-DMHealth-TV-00247-0525",
+          "context": "-2.75 -3.68 -3.82"
+        }
+      ],
+      "amounts_found": [
+        801728.42,
+        801728.42,
+        479843.67,
+        319902.96,
+        499.92,
+        499.88,
+        499.69,
+        499.66,
+        -0.17,
+        -2.61,
+        -2.75,
+        -3.68,
+        -3.82,
+        -4.33
+      ],
+      "patterns_found": [
+        "DMCRM",
+        "DMHEALTH",
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298157309.pdf",
+      "invoice_number": "5298157309",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -220.3,
+          "description": "Credit/Adjustment",
+          "context": "48205 การคลิก 19,658.23"
+        },
+        {
+          "amount": -800.02,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 19,658.23 -220.30"
+        },
+        {
+          "amount": -1970.44,
+          "description": "Credit/Adjustment",
+          "context": "19,658.23 -220.30 -800.02"
+        }
+      ],
+      "amounts_found": [
+        16667.47,
+        16667.47,
+        19658.23,
+        -220.3,
+        -800.02,
+        -1970.44
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298240989.pdf",
+      "invoice_number": "5298240989",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -71.31,
+          "description": "Credit/Adjustment",
+          "context": "170274 การคลิก 9,999.61"
+        },
+        {
+          "amount": -113.11,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 9,999.61 -71.31"
+        },
+        {
+          "amount": -1253.6,
+          "description": "Credit/Adjustment",
+          "context": "9,999.61 -71.31 -113.11"
+        },
+        {
+          "amount": -1662.25,
+          "description": "Credit/Adjustment",
+          "context": "-71.31 -113.11 -1,253.60"
+        }
+      ],
+      "amounts_found": [
+        18889.62,
+        18889.62,
+        11990.28,
+        9999.61,
+        -71.31,
+        -113.11,
+        -1253.6,
+        -1662.25
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298241256.pdf",
+      "invoice_number": "5298241256",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -360.66,
+          "description": "Credit/Adjustment",
+          "context": "การ คลิก 41,387.37"
+        }
+      ],
+      "amounts_found": [
+        41026.71,
+        41026.71,
+        41387.37,
+        -360.66
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298248238.pdf",
+      "invoice_number": "5298248238",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -2.34,
+          "description": "Credit/Adjustment",
+          "context": "54 การคลิก 1,345.33"
+        },
+        {
+          "amount": -18.64,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 1,345.33 -2.34"
+        },
+        {
+          "amount": -86.6,
+          "description": "Credit/Adjustment",
+          "context": "1,345.33 -2.34 -18.64"
+        },
+        {
+          "amount": -90.07,
+          "description": "Credit/Adjustment",
+          "context": "-2.34 -18.64 -86.60"
+        }
+      ],
+      "amounts_found": [
+        12696.69,
+        12696.69,
+        6632.93,
+        2943.83,
+        1972.25,
+        1345.33,
+        -2.34,
+        -18.64,
+        -86.6,
+        -90.07
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298281913.pdf",
+      "invoice_number": "5298281913",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -2.87,
+          "description": "Credit/Adjustment",
+          "context": "หน่วย จำนวน เงิน (฿)"
+        }
+      ],
+      "amounts_found": [
+        2.87,
+        2.87,
+        -2.87
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298283050.pdf",
+      "invoice_number": "5298283050",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -5.02,
+          "description": "Credit/Adjustment",
+          "context": "การแสดงผล 12,607.54 เครดิตจากการแสดงผลเกินงบ"
+        },
+        {
+          "amount": -79.88,
+          "description": "Credit/Adjustment",
+          "context": "12,607.54 เครดิตจากการแสดงผลเกินงบ -5.02"
+        }
+      ],
+      "amounts_found": [
+        34800.0,
+        34800.0,
+        22277.36,
+        12607.54,
+        -5.02,
+        -79.88
+      ],
+      "patterns_found": [
+        "Campaign",
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298361576.pdf",
+      "invoice_number": "5298361576",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -101.54,
+          "description": "Credit/Adjustment",
+          "context": "28263 การคลิก 10,177.44"
+        },
+        {
+          "amount": -270.02,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 10,177.44 -101.54"
+        },
+        {
+          "amount": -1040.78,
+          "description": "Credit/Adjustment",
+          "context": "10,177.44 -101.54 -270.02"
+        }
+      ],
+      "amounts_found": [
+        8765.1,
+        8765.1,
+        10177.44,
+        -101.54,
+        -270.02,
+        -1040.78
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298381490.pdf",
+      "invoice_number": "5298381490",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -29.37,
+          "description": "Credit/Adjustment",
+          "context": "41967 การคลิก 15,348.16"
+        },
+        {
+          "amount": -109.92,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 15,348.16 -29.37"
+        }
+      ],
+      "amounts_found": [
+        15208.87,
+        15208.87,
+        15348.16,
+        -29.37,
+        -109.92
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298382222.pdf",
+      "invoice_number": "5298382222",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.15,
+          "description": "Credit/Adjustment",
+          "context": "244573 การคลิก 9,999.88"
+        },
+        {
+          "amount": -2.0,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 9,999.88 -0.15"
+        },
+        {
+          "amount": -40.73,
+          "description": "Credit/Adjustment",
+          "context": "9,999.88 -0.15 -2.00"
+        },
+        {
+          "amount": -45.63,
+          "description": "Credit/Adjustment",
+          "context": "-0.15 -2.00 -40.73"
+        },
+        {
+          "amount": -111.98,
+          "description": "Credit/Adjustment",
+          "context": "-2.00 -40.73 -45.63"
+        }
+      ],
+      "amounts_found": [
+        21617.14,
+        21617.14,
+        11817.75,
+        9999.88,
+        -0.15,
+        -2.0,
+        -40.73,
+        -45.63,
+        -111.98
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298528895.pdf",
+      "invoice_number": "5298528895",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        35397.74,
+        35397.74,
+        17991.76,
+        9017.02,
+        8388.96
+      ],
+      "patterns_found": [],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298615229.pdf",
+      "invoice_number": "5298615229",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.03,
+          "description": "Credit/Adjustment",
+          "context": "หน่วย จำนวนเงิน (฿)"
+        },
+        {
+          "amount": -0.06,
+          "description": "Credit/Adjustment",
+          "context": "จำนวนเงิน (฿) -0.03"
+        },
+        {
+          "amount": -1.42,
+          "description": "Credit/Adjustment",
+          "context": "(฿) -0.03 -0.06"
+        },
+        {
+          "amount": -4.11,
+          "description": "Credit/Adjustment",
+          "context": "-0.03 -0.06 -1.42"
+        },
+        {
+          "amount": -6.91,
+          "description": "Credit/Adjustment",
+          "context": "-0.06 -1.42 -4.11"
+        },
+        {
+          "amount": -19.72,
+          "description": "Credit/Adjustment",
+          "context": "-1.42 -4.11 -6.91"
+        },
+        {
+          "amount": -410.53,
+          "description": "Credit/Adjustment",
+          "context": "-4.11 -6.91 -19.72"
+        }
+      ],
+      "amounts_found": [
+        442.78,
+        442.78,
+        -0.03,
+        -0.06,
+        -1.42,
+        -4.11,
+        -6.91,
+        -19.72,
+        -410.53
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5298615739.pdf",
+      "invoice_number": "5298615739",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.52,
+          "description": "Credit/Adjustment",
+          "context": "43549 การคลิก 11,870.20"
+        },
+        {
+          "amount": -10.44,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 11,870.20 -0.52"
+        },
+        {
+          "amount": -43.35,
+          "description": "Credit/Adjustment",
+          "context": "11,870.20 -0.52 -10.44"
+        }
+      ],
+      "amounts_found": [
+        11815.89,
+        11815.89,
+        11870.2,
+        -0.52,
+        -10.44,
+        -43.35
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5299223229.pdf",
+      "invoice_number": "5299223229",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        7708.14,
+        7708.14,
+        4389.96,
+        1672.16,
+        1646.02
+      ],
+      "patterns_found": [
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5299367718.pdf",
+      "invoice_number": "5299367718",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -1.26,
+          "description": "Credit/Adjustment",
+          "context": "799 การคลิก 43.14"
+        },
+        {
+          "amount": -4.34,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 43.14 -1.26"
+        },
+        {
+          "amount": -31.73,
+          "description": "Credit/Adjustment",
+          "context": "43.14 -1.26 -4.34"
+        },
+        {
+          "amount": -39.92,
+          "description": "Credit/Adjustment",
+          "context": "-1.26 -4.34 -31.73"
+        }
+      ],
+      "amounts_found": [
+        4628.51,
+        4628.51,
+        3969.81,
+        692.81,
+        43.14,
+        -1.26,
+        -4.34,
+        -31.73,
+        -39.92
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5299617709.pdf",
+      "invoice_number": "5299617709",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.43,
+          "description": "Credit/Adjustment",
+          "context": "38128 การคลิก 15,315.98"
+        },
+        {
+          "amount": -8.2,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 15,315.98 -0.43"
+        },
+        {
+          "amount": -54.68,
+          "description": "Credit/Adjustment",
+          "context": "15,315.98 -0.43 -8.20"
+        }
+      ],
+      "amounts_found": [
+        15252.67,
+        15252.67,
+        15315.98,
+        -0.43,
+        -8.2,
+        -54.68
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5300092128.pdf",
+      "invoice_number": "5300092128",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.48,
+          "description": "Credit/Adjustment",
+          "context": "29466 การคลิก 13,155.92"
+        },
+        {
+          "amount": -5.76,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 13,155.92 -0.48"
+        },
+        {
+          "amount": -55.32,
+          "description": "Credit/Adjustment",
+          "context": "13,155.92 -0.48 -5.76"
+        }
+      ],
+      "amounts_found": [
+        13094.36,
+        13094.36,
+        13155.92,
+        -0.48,
+        -5.76,
+        -55.32
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5300482566.pdf",
+      "invoice_number": "5300482566",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -2.46,
+          "description": "บัญชี: AP - ALL Pleno-PAY คืน NOW Campaign",
+          "context": "หน่วย จำนวนเงิน (฿)"
+        },
+        {
+          "amount": -88.91,
+          "description": "บัญชี: AP - ALL Pleno-PAY คืน NOW Campaign",
+          "context": "จำนวนเงิน (฿) -2.46"
+        },
+        {
+          "amount": -269.76,
+          "description": "Credit/Adjustment",
+          "context": "(฿) -2.46 -88.91"
+        }
+      ],
+      "amounts_found": [
+        361.13,
+        361.13,
+        -2.46,
+        -88.91,
+        -269.76
+      ],
+      "patterns_found": [
+        "Campaign",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5300584082.pdf",
+      "invoice_number": "5300584082",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        9008.07,
+        9008.07,
+        3014.8,
+        3011.65,
+        2981.62
+      ],
+      "patterns_found": [
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5300624442.pdf",
+      "invoice_number": "5300624442",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -6.04,
+          "description": "Credit/Adjustment",
+          "context": "1354296 การคลิก 62,246.97"
+        },
+        {
+          "amount": -158.15,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 62,246.97 -6.04"
+        },
+        {
+          "amount": -209.35,
+          "description": "Credit/Adjustment",
+          "context": "62,246.97 -6.04 -158.15"
+        }
+      ],
+      "amounts_found": [
+        214728.05,
+        214728.05,
+        77859.29,
+        74995.33,
+        62246.97,
+        -6.04,
+        -158.15,
+        -209.35
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5300646032.pdf",
+      "invoice_number": "5300646032",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.51,
+          "description": "Credit/Adjustment",
+          "context": "148432 การคลิก 7,998.71"
+        }
+      ],
+      "amounts_found": [
+        7998.2,
+        7998.2,
+        7998.71,
+        -0.51
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5300784496.pdf",
+      "invoice_number": "5300784496",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.16,
+          "description": "Credit/Adjustment",
+          "context": "62302 การคลิก 2,561.32"
+        },
+        {
+          "amount": -5.03,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 2,561.32 -0.16"
+        },
+        {
+          "amount": -14.24,
+          "description": "Credit/Adjustment",
+          "context": "2,561.32 -0.16 -5.03"
+        },
+        {
+          "amount": -69.17,
+          "description": "Credit/Adjustment",
+          "context": "-0.16 -5.03 -14.24"
+        },
+        {
+          "amount": -172.25,
+          "description": "Credit/Adjustment",
+          "context": "-5.03 -14.24 -69.17"
+        },
+        {
+          "amount": -340.77,
+          "description": "Credit/Adjustment",
+          "context": "-14.24 -69.17 -172.25"
+        }
+      ],
+      "amounts_found": [
+        42915.95,
+        42915.95,
+        12248.96,
+        12247.15,
+        12246.59,
+        4213.55,
+        2561.32,
+        -0.16,
+        -5.03,
+        -14.24,
+        -69.17,
+        -172.25,
+        -340.77
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5300840344.pdf",
+      "invoice_number": "5300840344",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.05,
+          "description": "Credit/Adjustment",
+          "context": "1582721 การคลิก 27,996.51"
+        },
+        {
+          "amount": -1.8,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 27,996.51 -0.05"
+        },
+        {
+          "amount": -148.14,
+          "description": "Credit/Adjustment",
+          "context": "27,996.51 -0.05 -1.80"
+        }
+      ],
+      "amounts_found": [
+        27846.52,
+        27846.52,
+        27996.51,
+        -0.05,
+        -1.8,
+        -148.14
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5301425447.pdf",
+      "invoice_number": "5301425447",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -3.18,
+          "description": "Credit/Adjustment",
+          "context": "36 การคลิก 661.56"
+        },
+        {
+          "amount": -9.24,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 661.56 -3.18"
+        },
+        {
+          "amount": -26.85,
+          "description": "Credit/Adjustment",
+          "context": "661.56 -3.18 -9.24"
+        },
+        {
+          "amount": -64.51,
+          "description": "Credit/Adjustment",
+          "context": "-3.18 -9.24 -26.85"
+        },
+        {
+          "amount": -76.54,
+          "description": "Credit/Adjustment",
+          "context": "-9.24 -26.85 -64.51"
+        }
+      ],
+      "amounts_found": [
+        11580.58,
+        11580.58,
+        6570.87,
+        2749.85,
+        1778.62,
+        661.56,
+        -3.18,
+        -9.24,
+        -26.85,
+        -64.51,
+        -76.54
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5301461407.pdf",
+      "invoice_number": "5301461407",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.07,
+          "description": "Credit/Adjustment",
+          "context": "การแสดง ผล 9,996.32"
+        },
+        {
+          "amount": -0.25,
+          "description": "Credit/Adjustment",
+          "context": "ผล 9,996.32 -0.07"
+        },
+        {
+          "amount": -39.83,
+          "description": "Credit/Adjustment",
+          "context": "9,996.32 -0.07 -0.25"
+        },
+        {
+          "amount": -40.47,
+          "description": "Credit/Adjustment",
+          "context": "-0.07 -0.25 -39.83"
+        }
+      ],
+      "amounts_found": [
+        29910.94,
+        29910.94,
+        9997.98,
+        9997.26,
+        9996.32,
+        -0.07,
+        -0.25,
+        -39.83,
+        -40.47
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5301552840.pdf",
+      "invoice_number": "5301552840",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.08,
+          "description": "Credit/Adjustment",
+          "context": "2483404 การคลิก 119,994.31"
+        },
+        {
+          "amount": -7.31,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 119,994.31 -0.08"
+        },
+        {
+          "amount": -281.97,
+          "description": "Credit/Adjustment",
+          "context": "119,994.31 -0.08 -7.31"
+        }
+      ],
+      "amounts_found": [
+        119704.95,
+        119704.95,
+        119994.31,
+        -0.08,
+        -7.31,
+        -281.97
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5301655559.pdf",
+      "invoice_number": "5301655559",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        4590.46,
+        4590.46,
+        3219.56,
+        1370.9
+      ],
+      "patterns_found": [
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5301967139.pdf",
+      "invoice_number": "5301967139",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        8418.81,
+        8418.81,
+        4449.27,
+        2338.97,
+        1630.57
+      ],
+      "patterns_found": [
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5302009440.pdf",
+      "invoice_number": "5302009440",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -2.44,
+          "description": "Credit/Adjustment",
+          "context": "157929 การคลิก 7,999.72"
+        },
+        {
+          "amount": -26.75,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 7,999.72 -2.44"
+        },
+        {
+          "amount": -30.88,
+          "description": "Credit/Adjustment",
+          "context": "7,999.72 -2.44 -26.75"
+        }
+      ],
+      "amounts_found": [
+        17051.5,
+        17051.5,
+        9111.85,
+        7999.72,
+        -2.44,
+        -26.75,
+        -30.88
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5302012325.pdf",
+      "invoice_number": "5302012325",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        29491.74,
+        29491.74,
+        14126.84,
+        8512.36,
+        6852.54
+      ],
+      "patterns_found": [],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5302293067.pdf",
+      "invoice_number": "5302293067",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.06,
+          "description": "Credit/Adjustment",
+          "context": "หน่วย จำนวนเงิน (฿)"
+        },
+        {
+          "amount": -0.33,
+          "description": "Credit/Adjustment",
+          "context": "จำนวนเงิน (฿) -0.06"
+        },
+        {
+          "amount": -184.46,
+          "description": "Credit/Adjustment",
+          "context": "(฿) -0.06 -0.33"
+        }
+      ],
+      "amounts_found": [
+        184.85,
+        184.85,
+        -0.06,
+        -0.33,
+        -184.46
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5302301893.pdf",
+      "invoice_number": "5302301893",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        7714.11,
+        7714.11,
+        4442.75,
+        1658.18,
+        1613.18
+      ],
+      "patterns_found": [
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5302788327.pdf",
+      "invoice_number": "5302788327",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        119996.74,
+        119996.74,
+        119996.74
+      ],
+      "patterns_found": [
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5302951835.pdf",
+      "invoice_number": "5302951835",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.01,
+          "description": "Credit/Adjustment",
+          "context": "หน่วย จำนวน เงิน (฿)"
+        },
+        {
+          "amount": -0.02,
+          "description": "Credit/Adjustment",
+          "context": "จำนวน เงิน (฿) -0.01"
+        },
+        {
+          "amount": -0.03,
+          "description": "Credit/Adjustment",
+          "context": "เงิน (฿) -0.01 -0.02"
+        },
+        {
+          "amount": -0.03,
+          "description": "Credit/Adjustment",
+          "context": "-0.01 -0.02 -0.03"
+        },
+        {
+          "amount": -0.04,
+          "description": "Credit/Adjustment",
+          "context": "-0.02 -0.03 -0.03"
+        },
+        {
+          "amount": -0.06,
+          "description": "Credit/Adjustment",
+          "context": "-0.03 -0.03 -0.04"
+        },
+        {
+          "amount": -0.07,
+          "description": "Credit/Adjustment",
+          "context": "-0.03 -0.04 -0.06"
+        },
+        {
+          "amount": -0.09,
+          "description": "Credit/Adjustment",
+          "context": "-0.04 -0.06 -0.07"
+        },
+        {
+          "amount": -0.15,
+          "description": "Credit/Adjustment",
+          "context": "-0.06 -0.07 -0.09"
+        },
+        {
+          "amount": -0.16,
+          "description": "Credit/Adjustment",
+          "context": "-0.07 -0.09 -0.15"
+        },
+        {
+          "amount": -0.24,
+          "description": "Credit/Adjustment",
+          "context": "-0.09 -0.15 -0.16"
+        },
+        {
+          "amount": -0.31,
+          "description": "Credit/Adjustment",
+          "context": "-0.15 -0.16 -0.24"
+        },
+        {
+          "amount": -0.42,
+          "description": "Credit/Adjustment",
+          "context": "-0.16 -0.24 -0.31"
+        },
+        {
+          "amount": -29.1,
+          "description": "Credit/Adjustment",
+          "context": "-0.24 -0.31 -0.42"
+        },
+        {
+          "amount": -30.87,
+          "description": "Credit/Adjustment",
+          "context": "-0.31 -0.42 -29.10"
+        },
+        {
+          "amount": -38.7,
+          "description": "Credit/Adjustment",
+          "context": "-0.42 -29.10 -30.87"
+        },
+        {
+          "amount": -46.3,
+          "description": "Credit/Adjustment",
+          "context": "-29.10 -30.87 -38.70"
+        },
+        {
+          "amount": -47.37,
+          "description": "Credit/Adjustment",
+          "context": "-30.87 -38.70 -46.30"
+        },
+        {
+          "amount": -56.57,
+          "description": "Credit/Adjustment",
+          "context": "-38.70 -46.30 -47.37"
+        },
+        {
+          "amount": -58.21,
+          "description": "Credit/Adjustment",
+          "context": "-46.30 -47.37 -56.57"
+        }
+      ],
+      "amounts_found": [
+        -0.01,
+        -0.02,
+        -0.03,
+        -0.03,
+        -0.04,
+        -0.06,
+        -0.07,
+        -0.09,
+        -0.15,
+        -0.16,
+        -0.24,
+        -0.31,
+        -0.42,
+        -29.1,
+        -30.87,
+        -38.7,
+        -46.3,
+        -47.37,
+        -56.57,
+        -58.21
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5303158396.pdf",
+      "invoice_number": "5303158396",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.83,
+          "description": "Credit/Adjustment",
+          "context": "หน่วย จำนวน เงิน (฿)"
+        },
+        {
+          "amount": -1.19,
+          "description": "Credit/Adjustment",
+          "context": "จำนวน เงิน (฿) -0.83"
+        },
+        {
+          "amount": -1.46,
+          "description": "Credit/Adjustment",
+          "context": "เงิน (฿) -0.83 -1.19"
+        }
+      ],
+      "amounts_found": [
+        3.48,
+        3.48,
+        -0.83,
+        -1.19,
+        -1.46
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5303644723.pdf",
+      "invoice_number": "5303644723",
+      "pages": 3,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [],
+      "amounts_found": [
+        7773.48,
+        7773.48,
+        4455.39,
+        1662.19,
+        1655.9
+      ],
+      "patterns_found": [
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5303649115.pdf",
+      "invoice_number": "5303649115",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -0.39,
+          "description": "Credit/Adjustment",
+          "context": "หน่วย จำนวน เงิน (฿)"
+        }
+      ],
+      "amounts_found": [
+        0.39,
+        0.39,
+        -0.39
+      ],
+      "patterns_found": [
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "|separator|"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    },
+    {
+      "filename": "5303655373.pdf",
+      "invoice_number": "5303655373",
+      "pages": 2,
+      "page1_structure": {
+        "type": "Invoice"
+      },
+      "page2_structure": {},
+      "line_items_found": [
+        {
+          "amount": -35.03,
+          "description": "Credit/Adjustment",
+          "context": "25632 การคลิก 10,810.17"
+        },
+        {
+          "amount": -100.64,
+          "description": "Credit/Adjustment",
+          "context": "การคลิก 10,810.17 -35.03"
+        }
+      ],
+      "amounts_found": [
+        10674.5,
+        10674.5,
+        10810.17,
+        -35.03,
+        -100.64
+      ],
+      "patterns_found": [
+        "การคลิก",
+        "กิจกรรมที่ไม่ถูกต้อง",
+        "SDH",
+        "|separator|",
+        "Clicks/Impressions"
+      ],
+      "text_fragmentation": false,
+      "table_structure": true
+    }
+  ]
+}

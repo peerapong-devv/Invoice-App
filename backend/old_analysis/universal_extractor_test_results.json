@@ -1,0 +1,173 @@
+{
+  "5297692778.pdf": {
+    "items_count": 2,
+    "total_amount": 36965.0,
+    "items": [
+      {
+        "platform": "Google",
+        "filename": "5297692778.pdf",
+        "invoice_number": "5297692778",
+        "invoice_id": "5297692778",
+        "invoice_type": "AP",
+        "line_number": 1,
+        "amount": 18482.5,
+        "total": 18482.5,
+        "description": "THB",
+        "agency": "pk",
+        "project_id": null,
+        "project_name": "Google Ads Campaign",
+        "objective": "Traffic",
+        "period": null,
+        "campaign_id": null
+      },
+      {
+        "platform": "Google",
+        "filename": "5297692778.pdf",
+        "invoice_number": "5297692778",
+        "invoice_id": "5297692778",
+        "invoice_type": "AP",
+        "line_number": 2,
+        "amount": 18482.5,
+        "total": 18482.5,
+        "description": "THB",
+        "agency": "pk",
+        "project_id": null,
+        "project_name": "Google Ads Campaign",
+        "objective": "Traffic",
+        "period": null,
+        "campaign_id": null
+      }
+    ]
+  },
+  "5297692787.pdf": {
+    "items_count": 2,
+    "total_amount": 37750.0,
+    "items": [
+      {
+        "platform": "Google",
+        "filename": "5297692787.pdf",
+        "invoice_number": "5297692787",
+        "invoice_id": "5297692787",
+        "invoice_type": "AP",
+        "line_number": 1,
+        "amount": 18875.0,
+        "total": 18875.0,
+        "description": "THB",
+        "agency": "pk",
+        "project_id": null,
+        "project_name": "Google Ads Campaign",
+        "objective": "Traffic",
+        "period": null,
+        "campaign_id": null
+      },
+      {
+        "platform": "Google",
+        "filename": "5297692787.pdf",
+        "invoice_number": "5297692787",
+        "invoice_id": "5297692787",
+        "invoice_type": "AP",
+        "line_number": 2,
+        "amount": 18875.0,
+        "total": 18875.0,
+        "description": "THB",
+        "agency": "pk",
+        "project_id": null,
+        "project_name": "Google Ads Campaign",
+        "objective": "Traffic",
+        "period": null,
+        "campaign_id": null
+      }
+    ]
+  },
+  "5300624442.pdf": {
+    "items_count": 5,
+    "total_amount": 644557.69,
+    "items": [
+      {
+        "platform": "Google",
+        "filename": "5300624442.pdf",
+        "invoice_number": "5300624442",
+        "invoice_id": "5300624442",
+        "invoice_type": "AP",
+        "line_number": 1,
+        "amount": 77859.29,
+        "total": 77859.29,
+        "description": "Parrot Oil in bath VDO 6 Sec - B",
+        "agency": "pk",
+        "project_id": null,
+        "project_name": "Parrot",
+        "objective": "Traffic",
+        "period": null,
+        "campaign_id": null
+      },
+      {
+        "platform": "Google",
+        "filename": "5300624442.pdf",
+        "invoice_number": "5300624442",
+        "invoice_id": "5300624442",
+        "invoice_type": "AP",
+        "line_number": 2,
+        "amount": 74995.33,
+        "total": 74995.33,
+        "description": "Parrot - Skin Food VDO 15 Sec - Skipable_7Jun-30Jun",
+        "agency": "pk",
+        "project_id": null,
+        "project_name": "Parrot",
+        "objective": "Traffic",
+        "period": null,
+        "campaign_id": null
+      },
+      {
+        "platform": "Google",
+        "filename": "5300624442.pdf",
+        "invoice_number": "5300624442",
+        "invoice_id": "5300624442",
+        "invoice_type": "AP",
+        "line_number": 3,
+        "amount": 62246.97,
+        "total": 62246.97,
+        "description": "Parrot Oil in bath VDO 15 Sec - S",
+        "agency": "pk",
+        "project_id": null,
+        "project_name": "Parrot",
+        "objective": "Traffic",
+        "period": null,
+        "campaign_id": null
+      },
+      {
+        "platform": "Google",
+        "filename": "5300624442.pdf",
+        "invoice_number": "5300624442",
+        "invoice_id": "5300624442",
+        "invoice_type": "AP",
+        "line_number": 4,
+        "amount": 214728.05,
+        "total": 214728.05,
+        "description": "THB",
+        "agency": "pk",
+        "project_id": null,
+        "project_name": "Google Ads Campaign",
+        "objective": "Traffic",
+        "period": null,
+        "campaign_id": null
+      },
+      {
+        "platform": "Google",
+        "filename": "5300624442.pdf",
+        "invoice_number": "5300624442",
+        "invoice_id": "5300624442",
+        "invoice_type": "AP",
+        "line_number": 5,
+        "amount": 214728.05,
+        "total": 214728.05,
+        "description": "THB",
+        "agency": "pk",
+        "project_id": null,
+        "project_name": "Google Ads Campaign",
+        "objective": "Traffic",
+        "period": null,
+        "campaign_id": null
+      }
+    ]
+  }
+}

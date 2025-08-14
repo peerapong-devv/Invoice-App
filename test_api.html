@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+</head>
+<body>
+    <h1>Testing API Connection</h1>
+    <button onclick="testDirect()">Test Direct API</button>
+    <button onclick="testVercel()">Test via Vercel</button>
+    <div id="result"></div>
+
+    <script>
+        async function testDirect() {
+            try {
+                const response = await fetch('https://peepong.pythonanywhere.com/api/health');
+                const data = await response.json();
+                document.getElementById('result').innerHTML = 
+                    '<p style="color:green">Direct API: ' + JSON.stringify(data) + '</p>';
+            } catch (error) {
+                document.getElementById('result').innerHTML = 
+                    '<p style="color:red">Direct API Error: ' + error.message + '</p>';
+            }
+        }
+
+        async function testVercel() {
+            try {
+                const response = await fetch('https://invoice-app-eight-orcin.vercel.app/api/backend/health');
+                const data = await response.json();
+                document.getElementById('result').innerHTML = 
+                    '<p style="color:green">Vercel Proxy: ' + JSON.stringify(data) + '</p>';
+            } catch (error) {
+                document.getElementById('result').innerHTML = 
+                    '<p style="color:red">Vercel Proxy Error: ' + error.message + '</p>';
+            }
+        }
+    </script>
+</body>
+</html>

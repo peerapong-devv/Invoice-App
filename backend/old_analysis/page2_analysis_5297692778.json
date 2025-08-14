@@ -1,0 +1,878 @@
+{
+  "filename": "5297692778.pdf",
+  "total_pages": 2,
+  "line_items": [
+    {
+      "amount": 50277.0,
+      "description": "50277",
+      "extraction_method": "table_row"
+    },
+    {
+      "amount": 18550.72,
+      "description": "18,550.72",
+      "extraction_method": "table_row"
+    },
+    {
+      "amount": 50277.0,
+      "description": "การคลิก",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": 18550.72,
+      "description": "การคลิก",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": 18482.5,
+      "description": "_​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​... อแคมเปญ ยอดรวมในสกุลเงิน GST (0%)",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": 18482.5,
+      "description": "ยอดรวมในสกุลเงิน GST (0%) ยอดรวมในสกุลเงิน",
+      "extraction_method": "vertical_pattern"
+    },
+    {
+      "amount": 92778.0,
+      "description": "หมายเลขใบแจ้งหนี้: 52976",
+      "extraction_method": "horizontal_pattern"
+    },
+    {
+      "amount": -7921.0,
+      "description": "รหัสบัญชี: 548-398",
+      "extraction_method": "horizontal_pattern"
+    },
+    {
+      "amount": 2023.0,
+      "description": "งบประมาณบัญชี: Prakit Holdings Public Company Limited - Jun 30,",
+      "extraction_method": "horizontal_pattern"
+    },
+    {
+      "amount": 2568.0,
+      "description": "1 มิ.ย. 2568 - 30 มิ.ย.",
+      "extraction_method": "horizontal_pattern"
+    },
+    {
+      "amount": 52463.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม:",
+      "extraction_method": "fragmented_pattern"
+    },
+    {
+      "amount": 52749.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม:",
+      "extraction_method": "fragmented_pattern"
+    },
+    {
+      "amount": 52976.0,
+      "description": "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 92778.0,
+      "description": "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 18482.5,
+      "description": "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 548.0,
+      "description": "งบประมาณบัญชี: Prakit Holdings Public Company Limited - Jun 30, 2023",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": -398.0,
+      "description": "งบประมาณบัญชี: Prakit Holdings Public Company Limited - Jun 30, 2023",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": -7921.0,
+      "description": "งบประมาณบัญชี: Prakit Holdings Public Company Limited - Jun 30, 2023",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 2568.0,
+      "description": "งบประมาณบัญชี: Prakit Holdings Public Company Limited - Jun 30, 2023",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 50277.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5246381159, เดือนที่ใช้บริการ: เม.ย. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 18550.72,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5246381159, เดือนที่ใช้บริการ: เม.ย. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 52463.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม:  81159, เดือนที่ใช้บริการ: เม.ย. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 81159.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 52463 , เดือนที่ใช้บริการ: เม.ย. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 2568.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5246381159, เดือนที่ใช้บริการ: เม.ย.  , ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 2023.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5246381159, เดือนที่ใช้บริการ: เม.ย. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 52749.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม:  58807, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 58807.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 52749 , เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 2568.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5274958807, เดือนที่ใช้บริการ: พ.ค.  , ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    },
+    {
+      "amount": 2023.0,
+      "description": "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5274958807, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+      "extraction_method": "context_reconstruction"
+    }
+  ],
+  "amounts_found": [
+    {
+      "value": 52976.0,
+      "text": "52976",
+      "position": [
+        31,
+        36
+      ]
+    },
+    {
+      "value": 92778.0,
+      "text": "92778",
+      "position": [
+        36,
+        41
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        124,
+        125
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        130,
+        131
+      ]
+    },
+    {
+      "value": 18482.5,
+      "text": "18,482.50",
+      "position": [
+        133,
+        142
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0.00",
+      "position": [
+        144,
+        148
+      ]
+    },
+    {
+      "value": 18482.5,
+      "text": "18,482.50",
+      "position": [
+        150,
+        159
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        186,
+        187
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        257,
+        258
+      ]
+    },
+    {
+      "value": 548.0,
+      "text": "548",
+      "position": [
+        270,
+        273
+      ]
+    },
+    {
+      "value": -398.0,
+      "text": "-398",
+      "position": [
+        273,
+        277
+      ]
+    },
+    {
+      "value": -7921.0,
+      "text": "-7921",
+      "position": [
+        277,
+        282
+      ]
+    },
+    {
+      "value": 30.0,
+      "text": "30",
+      "position": [
+        343,
+        345
+      ]
+    },
+    {
+      "value": 2023.0,
+      "text": "2023",
+      "position": [
+        347,
+        351
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        352,
+        353
+      ]
+    },
+    {
+      "value": 2568.0,
+      "text": "2568",
+      "position": [
+        360,
+        364
+      ]
+    },
+    {
+      "value": 30.0,
+      "text": "30",
+      "position": [
+        367,
+        369
+      ]
+    },
+    {
+      "value": 2568.0,
+      "text": "2568",
+      "position": [
+        376,
+        380
+      ]
+    },
+    {
+      "value": 4.0,
+      "text": "4",
+      "position": [
+        426,
+        427
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        429,
+        430
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        432,
+        433
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        435,
+        436
+      ]
+    },
+    {
+      "value": 9.0,
+      "text": "9",
+      "position": [
+        438,
+        439
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        597,
+        598
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        687,
+        688
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        693,
+        694
+      ]
+    },
+    {
+      "value": 5.0,
+      "text": "5",
+      "position": [
+        696,
+        697
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        717,
+        718
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        720,
+        721
+      ]
+    },
+    {
+      "value": 8.0,
+      "text": "8",
+      "position": [
+        723,
+        724
+      ]
+    },
+    {
+      "value": 9.0,
+      "text": "9",
+      "position": [
+        726,
+        727
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        732,
+        733
+      ]
+    },
+    {
+      "value": 2.0,
+      "text": "2",
+      "position": [
+        735,
+        736
+      ]
+    },
+    {
+      "value": 50277.0,
+      "text": "50277",
+      "position": [
+        737,
+        742
+      ]
+    },
+    {
+      "value": 18550.72,
+      "text": "18,550.72",
+      "position": [
+        751,
+        760
+      ]
+    },
+    {
+      "value": -2.1,
+      "text": "-2.10",
+      "position": [
+        761,
+        766
+      ]
+    },
+    {
+      "value": -66.12,
+      "text": "-66.12",
+      "position": [
+        767,
+        773
+      ]
+    },
+    {
+      "value": 52463.0,
+      "text": "52463",
+      "position": [
+        820,
+        825
+      ]
+    },
+    {
+      "value": 81159.0,
+      "text": "81159",
+      "position": [
+        825,
+        830
+      ]
+    },
+    {
+      "value": 2568.0,
+      "text": "2568",
+      "position": [
+        857,
+        861
+      ]
+    },
+    {
+      "value": 30.0,
+      "text": "30",
+      "position": [
+        927,
+        929
+      ]
+    },
+    {
+      "value": 2023.0,
+      "text": "2023",
+      "position": [
+        931,
+        935
+      ]
+    },
+    {
+      "value": 4.0,
+      "text": "4",
+      "position": [
+        958,
+        959
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        961,
+        962
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        964,
+        965
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        967,
+        968
+      ]
+    },
+    {
+      "value": 9.0,
+      "text": "9",
+      "position": [
+        970,
+        971
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1129,
+        1130
+      ]
+    },
+    {
+      "value": 52749.0,
+      "text": "52749",
+      "position": [
+        1238,
+        1243
+      ]
+    },
+    {
+      "value": 58807.0,
+      "text": "58807",
+      "position": [
+        1243,
+        1248
+      ]
+    },
+    {
+      "value": 2568.0,
+      "text": "2568",
+      "position": [
+        1274,
+        1278
+      ]
+    },
+    {
+      "value": 30.0,
+      "text": "30",
+      "position": [
+        1344,
+        1346
+      ]
+    },
+    {
+      "value": 2023.0,
+      "text": "2023",
+      "position": [
+        1348,
+        1352
+      ]
+    },
+    {
+      "value": 4.0,
+      "text": "4",
+      "position": [
+        1375,
+        1376
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        1378,
+        1379
+      ]
+    },
+    {
+      "value": 1.0,
+      "text": "1",
+      "position": [
+        1381,
+        1382
+      ]
+    },
+    {
+      "value": 0.0,
+      "text": "0",
+      "position": [
+        1384,
+        1385
+      ]
+    },
+    {
+      "value": 9.0,
+      "text": "9",
+      "position": [
+        1387,
+        1388
+      ]
+    },
+    {
+      "value": 3.0,
+      "text": "3",
+      "position": [
+        1546,
+        1547
+      ]
+    }
+  ],
+  "descriptions_found": [
+    "ใบกำกับภาษี",
+    "หมายเลขใบแจ้งหนี้: 5297692778",
+    "หากมีข้อสงสัยเกี่ยวกับใบแจ้งหนี้นี้ โปรดส่งอีเมลไปที่ collections@google.com",
+    "หน้า 2 จาก 2",
+    "ยอดรวมในสกุลเงิน THB",
+    "ยอดรวมในสกุลเงิน THB",
+    "บัญชี: SDH | Nontaburi zone | CENTRO ราชพฤกษ์ 3",
+    "รหัสบัญชี: 548-398-7921",
+    "งบประมาณบัญชี: Prakit Holdings Public Company Limited - Jun 30, 2023",
+    "1 มิ.ย. 2568 - 30 มิ.ย. 2568",
+    "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5246381159, เดือนที่ใช้บริการ: เม.ย. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+    "Company Limited - Jun 30, 2023, ชื่อแคมเปญ: p​",
+    "_​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​...",
+    "กิจกรรมที่ไม่ถูกต้อง - หมายเลขใบแจ้งหนี้เดิม: 5274958807, เดือนที่ใช้บริการ: พ.ค. 2568, ชื่องบประมาณบัญชี: Prakit Holdings Public",
+    "Company Limited - Jun 30, 2023, ชื่อแคมเปญ: p​",
+    "_​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​...",
+    "หมายเลขใบสั่งซื้อหรือใบแจ้งหนี้ที่เกี่ยวข้องกับกิจกรรมที่ไม่ถูกต้องอาจมีการเปลี่ยนแปลงหากมีการเรียกเก็บเงินอีกคร"
+  ],
+  "text_blocks": [
+    {
+      "block_num": 1,
+      "bbox": [
+        131.25,
+        30.75,
+        547.2514038085938,
+        51.0
+      ],
+      "text_length": 40,
+      "text_preview": ": 5297692778"
+    },
+    {
+      "block_num": 2,
+      "bbox": [
+        48.0,
+        815.3250122070312,
+        547.2601318359375,
+        827.4749755859375
+      ],
+      "text_length": 88,
+      "text_preview": "  collections@google.com 2  2"
+    },
+    {
+      "block_num": 3,
+      "bbox": [
+        505.3125,
+        273.031494140625,
+        547.2598876953125,
+        282.9750061035156
+      ],
+      "text_length": 10,
+      "text_preview": "18,482.50"
+    },
+    {
+      "block_num": 4,
+      "bbox": [
+        525.94921875,
+        286.531494140625,
+        547.2550048828125,
+        296.4750061035156
+      ],
+      "text_length": 5,
+      "text_preview": "0.00"
+    },
+    {
+      "block_num": 5,
+      "bbox": [
+        478.58203125,
+        309.52880859375,
+        547.227294921875,
+        325.79998779296875
+      ],
+      "text_length": 10,
+      "text_preview": "18,482.50"
+    },
+    {
+      "block_num": 6,
+      "bbox": [
+        297.6328125,
+        273.031494140625,
+        374.92626953125,
+        282.9750061035156
+      ],
+      "text_length": 20,
+      "text_preview": " THB"
+    },
+    {
+      "block_num": 7,
+      "bbox": [
+        297.6328125,
+        286.531494140625,
+        334.1523132324219,
+        295.748291015625
+      ],
+      "text_length": 8,
+      "text_preview": "GST (0%)"
+    },
+    {
+      "block_num": 8,
+      "bbox": [
+        297.6328125,
+        312.781494140625,
+        374.92626953125,
+        322.7250061035156
+      ],
+      "text_length": 20,
+      "text_preview": " THB"
+    },
+    {
+      "block_num": 9,
+      "bbox": [
+        48.75,
+        78.781494140625,
+        233.28765869140625,
+        90.2249984741211
+      ],
+      "text_length": 47,
+      "text_preview": ": SDH | Nontaburi zone | CENTRO  3"
+    },
+    {
+      "block_num": 10,
+      "bbox": [
+        48.75,
+        92.281494140625,
+        132.156494140625,
+        102.9749984741211
+      ],
+      "text_length": 23,
+      "text_preview": ": 548-398-7921"
+    },
+    {
+      "block_num": 11,
+      "bbox": [
+        48.75,
+        105.781494140625,
+        317.2738037109375,
+        116.4749984741211
+      ],
+      "text_length": 68,
+      "text_preview": ": Prakit Holdings Public Company Limited - Jun 30, 2023"
+    },
+    {
+      "block_num": 12,
+      "bbox": [
+        48.75,
+        119.281494140625,
+        141.38827514648438,
+        129.22500610351562
+      ],
+      "text_length": 28,
+      "text_preview": "1 .. 2568 - 30 .. 2568"
+    },
+    {
+      "block_num": 13,
+      "bbox": [
+        48.0,
+        147.15750122070312,
+        546.9903564453125,
+        162.3142547607422
+      ],
+      "text_length": 28,
+      "text_preview": ""
+    },
+    {
+      "block_num": 14,
+      "bbox": [
+        536.51953125,
+        157.531494140625,
+        547.26416015625,
+        166.748291015625
+      ],
+      "text_length": 3,
+      "text_preview": "()"
+    },
+    {
+      "block_num": 15,
+      "bbox": [
+        48.0,
+        178.531494140625,
+        396.2430419921875,
+        187.748291015625
+      ],
+      "text_length": 172,
+      "text_preview": "pk|40109|SDH_pk_th-single-detached-house-centro-ra"
+    },
+    {
+      "block_num": 16,
+      "bbox": [
+        48.0,
+        183.781494140625,
+        547.2598876953125,
+        198.248291015625
+      ],
+      "text_length": 62,
+      "text_preview": "GDNQ2Y25_[ST]|2089P125027718,550.72"
+    },
+    {
+      "block_num": 17,
+      "bbox": [
+        528.45703125,
+        215.281494140625,
+        547.2600708007812,
+        224.498291015625
+      ],
+      "text_length": 5,
+      "text_preview": "-2.10"
+    },
+    {
+      "block_num": 18,
+      "bbox": [
+        523.86328125,
+        245.281494140625,
+        547.2533569335938,
+        254.498291015625
+      ],
+      "text_length": 6,
+      "text_preview": "-66.12"
+    },
+    {
+      "block_num": 19,
+      "bbox": [
+        48.0,
+        207.8249969482422,
+        492.87908935546875,
+        229.72500610351562
+      ],
+      "text_length": 350,
+      "text_preview": " - : 5246381159, : .. 2568, "
+    },
+    {
+      "block_num": 20,
+      "bbox": [
+        48.0,
+        238.5749969482422,
+        492.87908935546875,
+        259.7250061035156
+      ],
+      "text_length": 349,
+      "text_preview": " - : 5274958807, : .. 2568, "
+    },
+    {
+      "block_num": 21,
+      "bbox": [
+        48.0,
+        789.8250122070312,
+        391.19024658203125,
+        801.9749755859375
+      ],
+      "text_length": 115,
+      "text_preview": ""
+    }
+  ],
+  "debug_info": {}
+}
